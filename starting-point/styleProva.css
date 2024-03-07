@@ -1,0 +1,168 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #ffffff;
+}
+
+.top-bar {
+    background-color: #f3bb00;
+    padding: 30px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('hero_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009688;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Featured Products Section Styles */
+.featured-products {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+.featured-products h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.product {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 14px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/* Aggiungere stili per le nuove sezioni */
+
+.carousel {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.showcase {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.side-by-side-images {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+/* Stili per il layout delle nuove sezioni */
+
+.carousel .container,
+.showcase .container,
+.side-by-side-images .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*.carousel .container {
+    Stili specifici per il contenitore del carosello 
+}
+
+.showcase .container {
+    Stili specifici per il contenitore dello showcase 
+}
+
+.side-by-side-images .container {
+    Stili specifici per il contenitore delle immagini affiancate
+} */
