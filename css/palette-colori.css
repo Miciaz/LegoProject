@@ -1,8 +1,11 @@
 :root {
     --sfondo-main2-color: #f5eaff;
-    --secondary-color: ;
-    --success-color: ;
-    --danger-color: ;
-    --warning-color: ;
-    --info-color: ;
+    --sfondo-header-up-color: #f8f8f8;
+    --yellow-lego-color: #fecf03;
+    --orange-buttom-color: #fd8023;
+    --sfondo-footer1-color: #f2f2f2 ;
+    --sfondo-footer2-color: #1f1d48 ;
+    --sfondo-footer3-color: #1f1d48
 }
+
+
