@@ -14,7 +14,7 @@
 
 /* STILE SECTION 1 */
 .contenitore-generale {
-    width: 85%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -95,6 +95,7 @@
     margin-top: 8px; /* spazio tra l'immagine e il testo */
   }
   
+
 
 /*STILE SECTION 3*/
 .section-3 {
@@ -288,3 +289,8 @@ a {
 .dot:hover {
   background-color: #717171;
 }
+  /*
+  
+  
+  */
+
