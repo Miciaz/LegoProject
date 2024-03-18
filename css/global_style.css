@@ -112,7 +112,7 @@
     text-align: center; /* per centrare il testo */
     padding: 0 10%;
     padding-top: 1%; /* aggiunge un padding sinistro e destro del 10% del contenitore */
-    max-width: 1200px; /* puoi regolare questa larghezza massima secondo le tue esigenze */
+    max-width: 1400px; /* puoi regolare questa larghezza massima secondo le tue esigenze */
     margin: 0 auto;
   }
 
@@ -124,7 +124,7 @@
 
 /*iconcine sotto l'immagine slider*/
   .icon img {
-    width: 100px; /* per omologare tutte le immagini */
+    width: 120px; /* per omologare tutte le immagini */
     height: auto; /* per non distorcerle */
   }
 
