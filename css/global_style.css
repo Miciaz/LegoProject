@@ -197,6 +197,8 @@
 .container-shop-now2{
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 5px;
   padding: 20px;
 }
 
@@ -429,7 +431,7 @@ a {
   gap: 25px;
 }
 
-.button6_1 .button6_2{
+.button6{
   font-weight: bold;
   background-color: #1f1d48;
   text-decoration: none;
