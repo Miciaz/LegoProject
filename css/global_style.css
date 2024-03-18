@@ -86,8 +86,12 @@
     margin-bottom: 20px;
 }
 
-.testoslider-main1 h5 {
+.testoslider-main1 h1 {
+  font-size: 2rem;
+}
+.testoslider-main1 h3 {
     margin-bottom: 50px;
+    line-height: 2.6875rem;
 }
 
 .testoslider-main1 a {
@@ -114,6 +118,7 @@
     padding-top: 1%; /* aggiunge un padding sinistro e destro del 10% del contenitore */
     max-width: 1400px; /* puoi regolare questa larghezza massima secondo le tue esigenze */
     margin: 0 auto;
+    padding-bottom: 1%;
   }
 
  /*proprietà delle icone*/
