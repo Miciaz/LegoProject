@@ -8,7 +8,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'CeraPro';    
+    font-family: 'CeraPro';
+    font-weight: 300;
 }
 
 /*STILE NAVBAR*/
@@ -110,7 +111,8 @@
     justify-content: space-evenly;
     align-items: center; /* per centrare le iconcine */
     text-align: center; /* per centrare il testo */
-    padding: 0 10%; /* aggiunge un padding sinistro e destro del 10% del contenitore */
+    padding: 0 10%;
+    padding-top: 1%; /* aggiunge un padding sinistro e destro del 10% del contenitore */
     max-width: 1200px; /* puoi regolare questa larghezza massima secondo le tue esigenze */
     margin: 0 auto;
   }
