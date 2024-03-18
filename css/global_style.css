@@ -183,6 +183,8 @@
 }
 
 .container-h3-s2{
+  display: flex;
+  justify-content: center;
   padding-top: 15px;
 }
 
@@ -198,6 +200,10 @@
 
 .shop-now2{
   font-weight: bold;
+}
+
+.iper-centrale-s2:hover{
+  text-decoration: underline;
 }
 
 /*STILE SECTION 3*/
