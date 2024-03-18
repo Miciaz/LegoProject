@@ -181,6 +181,24 @@
   width: 100%;
 }
 
+.container-h3-s2{
+  padding-top: 15px;
+}
+
+.container-text-s2{
+  padding-top: 10px;
+}
+
+.container-shop-now2{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.shop-now2{
+  font-weight: bold;
+}
+
 /*STILE SECTION 3*/
 .section-3 {
   height: 70%;
