@@ -151,9 +151,11 @@
   align-items: center;
   height: auto;
   width: 80%;
+  padding-top: 65px;
 }
 
 .title-main-section2 {
+  font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: left;
