@@ -238,7 +238,7 @@ a {
 }
 
 .section3-wrapper {
-  height: 450px;
+  height: 700px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -268,10 +268,10 @@ a {
 .carousel-card { 
   position: relative;
   background: #fff;
-  height: 300px;
-  width: 184.46px;
+  height: 497px;
+  width: 290px;
   display: none;
-  margin-right: 30px;
+  margin-right: 40px;
 }
 
 /*stile button scorrimento*/
@@ -304,9 +304,10 @@ a {
 
 /*stile topbar carosello*/
 .carousel-topbar {
-  margin-left: 40px;
-  font-size: 1.4rem;
-  padding-bottom: 10px;
+  margin-left: 100px;
+  font-size: 1.9rem;
+  padding-bottom: 15px;
+  position: relative;
 }
 
 .carousel-title {
@@ -318,8 +319,8 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 184.46px;
-  width: 184.46px;
+  height: 290px;
+  width: 290px;
   background-color: white;
   /*border: solid 1px black;*/
 }
@@ -338,16 +339,17 @@ a {
 /*style leaf carousel*/
 .product-leaf-carousel {
   background-color: #2E0F54;
-  height: 115.54px;
-  width: 100%;
+  height: 206px;
+  width: 290;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: white;
+  padding: 12px 10px 10px 10px ;
 }
 
 .product-name {
-  font-size: 0.65rem;
+  font-size: 1rem;
   font-weight: 800;
   height: 20%;
   padding: 10px 15px;
@@ -364,8 +366,8 @@ a {
 
 .price-product-carousel {
   padding-left: 15px;
-  padding-top: 15px;
-  font-size: 0.8rem;
+  padding-top: 25px;
+  font-size: 1rem;
   font-weight: bolder;
 }
 
@@ -385,13 +387,13 @@ a {
 .button-addtoBag {
   background-color: #F8CF31;
   font-size: small;
-  font-weight: 900;
-  height: 40px;
-  width: 85%;
+  font-weight: 600;
+  height: 50px;
+  width: 90%;
   justify-content: center;
   border-radius: 3px;
   border: none;
-  font-size: 0.7rem;
+  font-size: 1.0rem;
 }
 
 /*scrollbar carosello*/
