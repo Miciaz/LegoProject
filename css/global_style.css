@@ -486,7 +486,9 @@ a {
   justify-content: center;
   align-items:self-start;
   padding-left: 40px;
+  width: 40%;
   background-color: #fff4eb;
+  gap: 15px
 }
 
 .testo-section6 h1{
