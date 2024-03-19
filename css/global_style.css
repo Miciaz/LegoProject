@@ -651,9 +651,10 @@ a {
   width: 100%;
 }
 
-.card-body{
+.card-body9{
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .container-h3-s9{
@@ -669,7 +670,6 @@ a {
 .container-shop-now9{
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 5px;
   padding: 20px;
 }
@@ -686,8 +686,8 @@ a {
 .container-footer1 {
   background-color: #f0f0f0;
   padding: 20px;
-  border-radius: 10px;
-  margin: 20px;
+  margin-bottom: 50px;
+  width: 100%;
 }
 
 /*STILE FOOTER 2*/
