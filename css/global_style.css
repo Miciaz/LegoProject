@@ -548,10 +548,14 @@ a {
 }
 
 .container-footer3 {
+  padding: 20px;
   color: white;
   display: flex;
 }
 
+.testo {
+  padding: 15px;
+}
 .element {
   margin-right: 35px;
 
