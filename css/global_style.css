@@ -417,7 +417,7 @@ a {
   background-color: #717171;
 }
 
-/*STILE SECTION 6*/
+/*STILE SECTION 6BAR*/
 .container-section6_bar {
   display: flex;
   flex-direction: row;
@@ -460,6 +460,59 @@ a {
   color: black;
   text-decoration: underline;
 }
+/*SECTION 6*/
+.contenitore-generale6{
+  background-color: #2E0F54;
+  width: 100%;
+}
+.contenitore-section6 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+}
+
+.img6{
+  height: 100%;
+  width: 100%;
+}
+
+.img-section6{
+  width: 60%;
+}
+
+.testo-section6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:self-start;
+  padding-left: 40px;
+  background-color: #fff4eb;
+}
+
+.testo-section6 h1{
+  font-size: xx-large;
+}
+
+.iper-shop-now6{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.iper6{
+  background-color: black;
+  color: white;
+  padding:10px;
+  border-radius: 5px;
+}
+
+.iper6:hover{
+  background-color: white;
+  color: black;
+}
+
+
 
 /*STILE SECTION 8*/
 .container-section8 {
