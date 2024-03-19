@@ -147,6 +147,7 @@
   height: auto;
   width: 100%;
   background-color: #fecf03;
+  color: #0000008c;
 }
 
 .main-section2 {
@@ -155,7 +156,7 @@
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 80%;
+  width: 90%;
   padding-top: 65px;
 }
 
@@ -166,6 +167,7 @@
   justify-content: left;
   width: 100%;
   padding: 10px;
+  color: #0000008c;
 }
 
 .container-s2 {
@@ -464,6 +466,7 @@ a {
 .contenitore-generale6{
   background-color: #2E0F54;
   width: 100%;
+  color: #0000008c;
 }
 .contenitore-section6 {
   display: flex;
@@ -485,7 +488,8 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items:self-start;
-  padding-left: 40px;
+  padding: 30px;
+  padding-left: 70px;
   width: 40%;
   background-color: #fff4eb;
   gap: 15px
@@ -608,7 +612,7 @@ a {
   height: auto;
   width: 100%;
   background-color: white;
-  color: black;
+  color: #0000008c;
 }
 
 .main-section9 {
