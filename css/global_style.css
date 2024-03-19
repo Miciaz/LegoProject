@@ -651,6 +651,11 @@ a {
   width: 100%;
 }
 
+.card-body{
+  display: flex;
+  justify-content: center;
+}
+
 .container-h3-s9{
   display: flex;
   justify-content: center;
