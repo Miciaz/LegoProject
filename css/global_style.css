@@ -89,6 +89,7 @@
 .testoslider-main1 h1 {
   font-size: 2rem;
 }
+
 .testoslider-main1 h3 {
     margin-bottom: 50px;
     line-height: 2.6875rem;
@@ -101,6 +102,11 @@
     padding: 12px;
     border-radius: 5px;
     text-decoration: none;
+    
+}
+
+.testoslider-main1 a:hover{
+  text-decoration: underline;
 }
 
 .background_main1 {
@@ -130,6 +136,7 @@
 /*iconcine sotto l'immagine slider*/
   .icon img {
     width: 120px; /* per omologare tutte le immagini */
+    max-width: 140px;
     height: auto; /* per non distorcerle */
   }
 
@@ -137,6 +144,10 @@
   .icon span {
     display: block; /* rende il testo un blocco per forzarlo sotto l'immagine */
     margin-top: 8px; /* spazio tra l'immagine e il testo */
+  }
+
+  .icon-container a:hover{
+    text-decoration: underline;
   }
   
 /*STILE SECTION 2*/
