@@ -696,8 +696,148 @@ a {
 
 /*STILE FOOTER 2*/
 
+.container-generale-footer2{
+  display: flex;
+  flex-direction: column;
+  background-color: #1f1d48;
+}
+
+.div1-footer2{
+  display: flex;
+  background-color: #1f1d48;
+  margin-bottom: 40px;
+}
+.div2-footer2{
+  height: 100px;
+  background-color: #1f1d48;
+}
+
+.box1-footer2{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 30%;
+  background-color: #1f1d48;
+}
+
+.box1-logo{
+  display: flex;
+  flex-direction: column;
+  align-items:self-start;
+  gap:90px;
+  height: auto;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.logo-footer2{
+  height: 10px;
+  width: 100px;
+  margin: 15px;
+}
+
+.botton-footer2{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(24,21,45);
+  color: #f0f0f0;
+  padding: 7px;
+  margin: 15px;
+  width: 40%;
+  gap:15px;
+}
+
+.button-f2{
+  font-size: medium;
+  background: transparent;
+  border: none;
+  color: white;
+  
+}
+
+.box1-iper{
+  display: flex;
+  flex-direction: column;
+  margin:15px;
+  gap: 30px;
+  color: white;
+}
+
+.box2-footer2{
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 70%;
+  background-color: #1f1d48;
+}
+
+.box2-ul{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  height: auto;
+  width: 32%;
+  background-color: #1f1d48;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.li-f2{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  list-style-type: none;
+}
+
+.box3-footer2{
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 100%;
+  background-color: #1f1d48;
+  color: white;
+}
+
+.subscribe-footer2{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  margin: 15px;
+}
+
+.email-footer2{
+  display: flex;
+
+}
+
+.email-input-f2{
+  width: 250px;
+}
+
+.email-button-f2{
+  border: none;
+  padding:20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: orange;
+}
+
+.social-footer2{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap:30px;
+}
+
+.svg-social-f2{
+  display: flex;
+  gap:10px;
+}
+
 /*STILE FOOTER 3*/
 .f_section3 {
+  margin-top: 70px;
   font-family: Arial, sans-serif;
   font-size: small;
   background-color: #1f1d48;
