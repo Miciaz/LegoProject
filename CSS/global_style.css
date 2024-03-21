@@ -112,6 +112,7 @@
 .background_main1 {
     margin-top: 0;
     background-color: #ffdf7e;
+    overflow:hidden;
 }
 
  /*proprietà delle container generale delle icone*/
