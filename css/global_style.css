@@ -114,6 +114,12 @@
     background-color: #ffdf7e;
 }
 
+.freccia-s1 {
+  font-family: sans-serif;
+  font-size:small;
+  font-weight: 200;
+}
+
  /*proprietà delle container generale delle icone*/
 .icon-container {
     display: flex;
