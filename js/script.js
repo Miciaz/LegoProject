@@ -1,50 +1,47 @@
 // script per carosello
 
-let slideIndex = 0;
-showSlides(slideIndex);
+document.addEventListener('DOMContentLoaded', function() {
+  // Inizializza i caroselli
+  initializeCarousel('carousel1');
+  initializeCarousel('carousel2');
+  initializeCarousel('carousel3');
+  initializeCarousel('carousel4');
+});
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides((slideIndex += n));
-}
+function initializeCarousel(carouselId) {
+  const carousel = document.getElementById(carouselId);
+  const buttonNext = carousel.querySelector('[data-button-next]');
+  const buttonPrev = carousel.querySelector('[data-button-prev]');
+  let slideIndex = 0;
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides((slideIndex = n));
-}
+  function showSlides() {
+    const slides = carousel.querySelectorAll(".carousel-card");
+    const totalSlides = slides.length;
+    const slidesPerPage = 4;
+    const maxIndex = Math.ceil(totalSlides / slidesPerPage) - 1;
 
-function showSlides(n) {
-  let i;
-  let slides = document.getElementsByClassName("carousel-card");
-  let dots = document.getElementsByClassName("dot");
-  const slidesPerPage = 4;
-  const totalSlides = slides.length;
-  let startIndex = n * slidesPerPage;
-  let endIndex = startIndex + slidesPerPage;
+    slideIndex = Math.min(maxIndex, Math.max(0, slideIndex)); // Limita slideIndex tra 0 e maxIndex
 
-  if (endIndex > totalSlides) {
-    startIndex = totalSlides - slidesPerPage;
-    endIndex = totalSlides;
+    const startIndex = slideIndex * slidesPerPage;
+    const endIndex = Math.min(totalSlides, startIndex + slidesPerPage);
+
+    slides.forEach((slide, index) => {
+      slide.style.display =
+        index >= startIndex && index < endIndex ? "block" : "none";
+    });
   }
 
-  if (startIndex < 0) {
-    startIndex = 0;
-    endIndex = Math.min(slidesPerPage, totalSlides);
+  function nextSlide() {
+    slideIndex++;
+    showSlides();
   }
 
-  for (i = 0; i < totalSlides; i++) {
-    slides[i].style.display = "none";
+  function prevSlide() {
+    slideIndex--;
+    showSlides();
   }
 
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-
-  for (i = startIndex; i < endIndex; i++) {
-    slides[i].style.display = "block";
-  }
-
-  slideIndex = startIndex / slidesPerPage;
-
-  dots[slideIndex].className += " active";
+  showSlides(); // Mostra le slide iniziali
+  buttonNext.addEventListener('click', nextSlide);
+  buttonPrev.addEventListener('click', prevSlide);
 }
