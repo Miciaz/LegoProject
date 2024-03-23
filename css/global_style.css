@@ -711,6 +711,14 @@ a {
   width: 100%;
 }
 
+.link-f1{
+  color:#31a1e0;
+}
+
+.link-f1:hover{
+  text-decoration: underline;
+}
+
 /*STILE FOOTER 2*/
 .container-footer2-generale{
   width: 100%;
@@ -778,9 +786,11 @@ a {
   font-size: medium;
   background: transparent;
   border: none;
-  color: white;
-  
+  color: white; 
+  cursor: pointer;
 }
+
+
 
 .box1-iper{
   display: flex;
@@ -847,7 +857,8 @@ a {
   padding:20px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: orange;
+  background-color: #e96f14;
+  cursor: pointer;
 }
 
 .social-footer2{
@@ -860,6 +871,10 @@ a {
 .svg-social-f2{
   display: flex;
   gap:10px;
+}
+
+.li-f2-link:hover{
+  text-decoration: underline;
 }
 
 /*STILE FOOTER 3*/
@@ -888,6 +903,10 @@ a {
 
 }
 
-.link {
+.link-f3 {
   color: white;
+}
+
+.link-f3:hover{
+  text-decoration: underline;
 }
