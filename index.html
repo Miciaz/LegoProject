@@ -216,7 +216,7 @@
       </section>
       <section class="m_section3">
         <main class="section-3">
-          <div class="section3-wrapper">
+          <div class="carousel-section-wrapper">
             <!--div per contenere l'intero carosello-->
             <div class="carousel-container-wrapper">
               <!--div per contenere la topbar del carosello-->
@@ -226,16 +226,16 @@
                 </h4>
               </div>
               <!--div per il carosello effettivo-->
-              <div class="carousel">
+              <div class="carousel" id="carousel1">
 
                 <!--bottoni laterali scorrimento-->
                 <div class="carousel-buttons">
-                  <div class="carousel-button carousel-button-previous">
+                  <button class="carousel-button carousel-button-previous" data-button-prev>
                     <span class="fa-solid fa-chevron-left"></span>
-                  </div>
-                  <div class="carousel-button carousel-button-next">
+                  </button>
+                  <button class="carousel-button carousel-button-next" data-button-next>
                     <span class="fa-solid fa-chevron-right"></span>
-                  </div>
+                  </button>
                 </div>
 
                 <div class="card-slider-container">
@@ -544,17 +544,684 @@
 
 
               <!--barra di scorrimento per il carosello-->
-              <div class="carousel-progressbar">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+              <div class="carousel-scrollbar">
+                
               </div>
             </div>
         </main>
-        <script src="js/script.js"></script>
       </section>
-      <section class="m_section4"></section>
-      <section class="m_section5"></section>
+      <section class="m_section4">
+          <main class="section-3" id="section4-container">
+            <div class="carousel-section-wrapper">
+              <!--div per contenere l'intero carosello-->
+              <div class="carousel-container-wrapper">
+                <!--div per contenere la topbar del carosello-->
+                <div class="carousel-topbar">
+                  <h4 class="carousel-title">
+                    What other are buying
+                  </h4>
+                </div>
+                <!--div per il carosello effettivo-->
+                <div class="carousel" id="carousel2">
+  
+                  <!--bottoni laterali scorrimento-->
+                  <div class="carousel-buttons">
+                    <button class="carousel-button carousel-button-previous" id="btt-section4" data-button-prev>
+                      <span class="fa-solid fa-chevron-left"></span>
+                    </button>
+                    <button class="carousel-button carousel-button-next" id="btt-section4" data-button-next>
+                      <span class="fa-solid fa-chevron-right"></span>
+                    </button>
+                  </div>
+  
+                  <div class="card-slider-container">
+                    <!--PRODOTTO 1 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\dune atreides product.png" alt="dune">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3"
+                              href="https://www.lego.com/en-gb/product/dune-atreides-royal-ornithopter-10327"
+                              title="Product page">Dune Atreides Royal Ornithopter<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button" >
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 2 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section3\43249.png" alt="Stitch">
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stitch<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 3 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section3\main3_1.png"
+                            alt="cappello Harry Potter">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Talking Sorting Hat<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 4 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 5 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 6 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 7 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stark Tower<span class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 8 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 9 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 10 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 11 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+  
+                    <!--PRODOTTO 12 card del carosello-->
+                    <div class="carousel-card">
+                      <div class="carousel-card-wrapper">
+                        <div class="product-image-carousel" id="img-carousel-section4">
+                          <!--immagine del prodotto-->
+                          <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+  
+                        </div>
+                        <div class="product-leaf-carousel" id="leaf-product-section4">
+                          <!--descrizione del prodotto-->
+                          <div class="product-name" id="product-name-section4">
+                            <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                class="trademark">&trade;</span></a>
+                          </div>
+                          <div class="price-product-carousel" id="price-section4">
+                            <p>£ 149,99</p>
+                          </div>
+                          <!--bottone per mettere prodotto nel carello-->
+                          <div class="container-button">
+                            <button class="button-addtoBag" id="button-section4">Add to Bag</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+  
+                <!--barra di scorrimento per il carosello-->
+                <div class="carousel-scrollbar">
+                  
+                </div>
+              </div>
+          </main>
+      </section>
+      <section class="m_section5">
+        <main class="section-3">
+          <div class="carousel-section-wrapper">
+            <!--div per contenere l'intero carosello-->
+            <div class="carousel-container-wrapper">
+              <!--div per contenere la topbar del carosello-->
+              <div class="carousel-topbar">
+                <h4 class="carousel-title">
+                  Featured sets
+                </h4>
+              </div>
+              <!--div per il carosello effettivo-->
+              <div class="carousel" id="carousel3">
+
+                <!--bottoni laterali scorrimento-->
+                <div class="carousel-buttons">
+                  <button class="carousel-button carousel-button-previous" data-button-prev>
+                    <span class="fa-solid fa-chevron-left"></span>
+                  </button>
+                  <button class="carousel-button carousel-button-next" data-button-next>
+                    <span class="fa-solid fa-chevron-right"></span>
+                  </button>
+                </div>
+
+                <div class="card-slider-container">
+                  <!--PRODOTTO 1 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\dune atreides product.png" alt="dune">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3"
+                            href="https://www.lego.com/en-gb/product/dune-atreides-royal-ornithopter-10327"
+                            title="Product page">Dune Atreides Royal Ornithopter<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 2 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section3\43249.png" alt="Stitch">
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stitch<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 3 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section3\main3_1.png"
+                          alt="cappello Harry Potter">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Talking Sorting Hat<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 4 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 5 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 6 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 7 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stark Tower</a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 8 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 9 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 10 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 11 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!--PRODOTTO 12 card del carosello-->
+                  <div class="carousel-card">
+                    <div class="carousel-card-wrapper">
+                      <div class="product-image-carousel">
+                        <!--immagine del prodotto-->
+                        <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+
+                      </div>
+                      <div class="product-leaf-carousel">
+                        <!--descrizione del prodotto-->
+                        <div class="product-name">
+                          <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                              class="trademark">&trade;</span></a>
+                        </div>
+                        <div class="price-product-carousel">
+                          <p>£ 149,99</p>
+                        </div>
+                        <!--bottone per mettere prodotto nel carello-->
+                        <div class="container-button">
+                          <button class="button-addtoBag">Add to Bag</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!--barra di scorrimento per il carosello-->
+              <div class="carousel-scrollbar">
+              
+              </div>
+            </div>
+        </main>
+      </section>
       <section class="m_section6">
         <section class="container-section6_bar">
           <div class="section6_bar">
@@ -586,6 +1253,340 @@
               </div>
             </div>
           </div>
+            <main class="section-3" id="section7-carousel"> 
+              <div class="carousel-section-wrapper">
+                <!--div per contenere l'intero carosello-->
+                <div class="carousel-container-wrapper">
+                  <!--div per contenere la topbar del carosello-->
+                  <div class="carousel-topbar">
+                    <h4 class="carousel-title" id="carousel-title-section7">
+                      Sets with endless creativity
+                    </h4>
+                  </div>
+                  <!--div per il carosello effettivo-->
+                  <div class="carousel" id="carousel4">
+    
+                    <!--bottoni laterali scorrimento-->
+                    <div class="carousel-buttons">
+                      <button class="carousel-button carousel-button-previous" id="btt-section7" data-button-prev>
+                        <span class="fa-solid fa-chevron-left"></span>
+                      </button>
+                      <button class="carousel-button carousel-button-next"id="btt-section7" data-button-next>
+                        <span class="fa-solid fa-chevron-right"></span>
+                      </button>
+                    </div>
+    
+                    <div class="card-slider-container">
+                      <!--PRODOTTO 1 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\dune atreides product.png" alt="dune">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3"
+                                href="https://www.lego.com/en-gb/product/dune-atreides-royal-ornithopter-10327"
+                                title="Product page">Dune Atreides Royal Ornithopter<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 2 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section3\43249.png" alt="Stitch">
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stitch<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 3 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section3\main3_1.png"
+                              alt="cappello Harry Potter">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Talking Sorting Hat<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 4 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 5 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 6 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 7 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stark Tower</a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 8 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 9 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 10 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 11 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+    
+                      <!--PRODOTTO 12 card del carosello-->
+                      <div class="carousel-card">
+                        <div class="carousel-card-wrapper">
+                          <div class="product-image-carousel">
+                            <!--immagine del prodotto-->
+                            <img class="img-carousel-section3" src="assets\images\M_Section4\76269.png" alt="Stark Tower">
+    
+                          </div>
+                          <div class="product-leaf-carousel">
+                            <!--descrizione del prodotto-->
+                            <div class="product-name">
+                              <a class="link-style-section3" href="#" title="Product page">Stark Tower<span
+                                  class="trademark">&trade;</span></a>
+                            </div>
+                            <div class="price-product-carousel">
+                              <p>£ 149,99</p>
+                            </div>
+                            <!--bottone per mettere prodotto nel carello-->
+                            <div class="container-button">
+                              <button class="button-addtoBag">Add to Bag</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    
+    
+                  <!--barra di scorrimento per il carosello-->
+                  <div class="carousel-scrollbar">
+                    
+                  </div>
+                </div>
+            </main>
         </div>
 
       </section>
@@ -1062,6 +2063,7 @@
       </div>
     </section>
   </section>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
