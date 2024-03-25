@@ -12,42 +12,170 @@
 }
 
 /*STILE NAVBAR*/
-#high_bar {
+.navbar-container-general {
+  position: sticky;
+  height: auto;
+  width: 100%;
+}
+
+.navbar {
   display: flex;
-  /* Make the navigation bar container a flexbox */
-  padding: 20px;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  height: 3.7rem;
+  background-color: #f8f8f8;
 }
 
-#high_msg {
-  display: inline-block;
-  /* Make the "high_msg" div inline-block */
-  margin-left: auto;
-  /* Optionally add margin to the left for spacing */
-  margin-right: auto;
-  /* Optionally add margin to the right for spacing */
-}
-
-#menu {
-  background-color: #ffcdcb;
-}
-
-#menu_icons {
-  float: right;
-}
-
-#menu_words a {
-  font-size: 1em;
-  color: #1f1d48;
-  padding: 20px;
-  vertical-align: center;
+.button-area-giochi {
+  background-color: #abd9ff;
   text-decoration: none;
+  padding: 5px;
+  border-radius: 7px;
+  color: black;
+  font-size: large;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-#menu_words a:hover {
+.button-area-giochi:hover {
+  background-color: #f8f8f8;
+}
+
+.mar10-button-lr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 11em;
+}
+
+.mar10 {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 10px;
+}
+
+.mar10-shop-now {
+  text-decoration: none;
+  color: #59b4fa;
+}
+
+.sign-in-box {
+  display: flex;
+  align-items: center;
+  /* padding-right: 10px; */
+  gap: 30px;
+}
+
+.sign-in {
+  display: flex;
+  padding: 0;
+  height: auto;
+  font-size: large;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-sign-in {
+  padding: 0;
+  height: auto;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.sign-in-join {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sign-in-link-style {
+  text-decoration: none;
+  color: black;
+}
+/**style menu**/
+.menu {
+  display: flex;
+  justify-content: space-around;
+  height: 4.7rem;
+  background-color: #fecf03;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 37rem;
+}
+
+.menu-logo{
+  height: 55px;
+  width: 55px;
+}
+
+.menu-logo-links {
   font-size: 1em;
-  color: #1f1d48;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.menu-links-cnt {
+  font-size: 1em;
+  display: flex;
+  gap: 40px;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.hover-underline:hover {
+  font-size: 1em;
   text-decoration: underline;
-  text-decoration-thickness: 0.2em;
+  text-decoration-thickness: 0.3em ;
+}
+
+.mday-link {
+  background-color: white;
+  color: red;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.mday-link:hover {
+  background-color: black;
+  color: white;
+}
+
+.menu-search-shop {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.search-logo {
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+
+.heart-logo {
+  color: black;
+}
+
+.shop-logo {
+  color: black;
 }
 
 /* STILE SECTION 1 */
