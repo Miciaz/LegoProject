@@ -186,6 +186,8 @@
 
 .contenitore-main1 {
     position: relative;
+    max-width: 100rem;
+    margin: 0px auto;
 }
 
 .testoslider-main1 {
@@ -197,10 +199,10 @@
 }
 
 .align-slider-main1 {
-    height: 450px;
+    height: auto;
     text-align: center;
     margin-bottom: 0;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 .align-slider-main1 img {
@@ -239,7 +241,7 @@
 
 .background_main1 {
     margin-top: 0;
-    background-color: #ffdf7e;
+    background-color: #ffffff;
     overflow:hidden;
 }
 
@@ -1088,4 +1090,9 @@ a {
 
 .link {
   color: white;
+}
+
+.width-adjuster {
+  max-width: 100rem;
+  margin: 0 auto;
 }
