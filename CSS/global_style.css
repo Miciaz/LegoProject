@@ -99,6 +99,8 @@
 }
 
 .sign-in-link-style {
+  display: flex;
+  gap: 10px;
   text-decoration: none;
   color: black;
 }
