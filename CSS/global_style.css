@@ -21,8 +21,9 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 100rem;
+  margin: 0 auto;
+  gap: 17rem;
   align-items: center;
   height: 3.7rem;
   background-color: #f8f8f8;
@@ -101,10 +102,9 @@
   display: flex;
   justify-content: space-around;
   height: 4.7rem;
-  background-color: #fecf03;
-  padding-left: 50px;
-  padding-right: 50px;
-  gap: 37rem;
+  max-width: 100rem;
+  margin: 0 auto;
+  gap: 53rem;
 }
 
 .menu-logo{
@@ -178,6 +178,14 @@
   color: black;
 }
 
+#nav-container{
+  background-color: #f8f8f8;
+}
+
+#menu-container{
+  background-color: #fecf03;
+}
+
 /* STILE SECTION 1 */
 .contenitore-generale {
     width: 100%;
@@ -248,14 +256,15 @@
  /*proprietà delle container generale delle icone*/
 .icon-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center; /* per centrare le iconcine */
     text-align: center; /* per centrare il testo */
     padding: 0 10%;
-    padding-top: 1%; /* aggiunge un padding sinistro e destro del 10% del contenitore */
-    max-width: 1400px; /* puoi regolare questa larghezza massima secondo le tue esigenze */
+    padding-top: 1%; 
+    max-width: 100rem; 
     margin: 0 auto;
     padding-bottom: 1%;
+    gap: 1.25rem;
   }
 
  /*proprietà delle icone*/
@@ -266,6 +275,7 @@
 
 /*iconcine sotto l'immagine slider*/
   .icon img {
+    margin: 0 auto;
     width: 120px; /* per omologare tutte le immagini */
     max-width: 140px;
     height: auto; /* per non distorcerle */
@@ -288,8 +298,8 @@
   justify-content: center;
   height: auto;
   width: 100%;
-  background-color: #fecf03;
-  color: #0000008c;
+  background-color: white;
+  color: black;
 }
 
 .main-section2 {
@@ -309,7 +319,7 @@
   justify-content: left;
   width: 100%;
   padding: 10px;
-  color: #0000008c;
+  color: black;
 }
 
 .container-s2 {
@@ -907,8 +917,10 @@ a {
 .container-footer1 {
   background-color: #f0f0f0;
   padding: 20px;
+  max-width: 100rem;
+  margin: 0 auto;
   margin-bottom: 50px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 /*STILE FOOTER 2*/
@@ -918,9 +930,9 @@ a {
 }
 
 .f_section2{
+  max-width: 100rem;
+  margin: 0 auto;
   padding-top:30px ;
-  padding-right: 300px;
-  padding-left: 300px ;
 }
 
 .container-generale-footer2{
@@ -1064,14 +1076,14 @@ a {
 
 /*STILE FOOTER 3*/
 .f_section3 {
+  max-width: 100rem;
+  margin: 0 auto;
   margin-top: 70px;
   font-family: Arial, sans-serif;
   font-size: small;
   background-color: #1f1d48;
   color: white;
   padding-top: 20px;
-  padding-left: 300px;
-  padding-right: 300px;
 }
 
 .container-footer3 {
@@ -1095,4 +1107,8 @@ a {
 .width-adjuster {
   max-width: 100rem;
   margin: 0 auto;
+}
+
+#footer-background{
+  background-color: #1f1d48;
 }
