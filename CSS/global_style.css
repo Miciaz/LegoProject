@@ -175,6 +175,8 @@
 }
 
 .mday-link {
+  font-size: 1rem;
+  font-weight: 300;
   background-color: white;
   color: red;
   padding: 10px;
