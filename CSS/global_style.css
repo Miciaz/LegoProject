@@ -861,7 +861,7 @@ a {
   justify-content: center;
   height: auto;
   width: 100%;
-  background-color: #2E0F54;
+  background-color:#300c54;
   color: white;
 }
 
@@ -876,12 +876,16 @@ a {
 }
 
 .title-main-section8 {
-  font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: left;
   width: 100%;
   padding: 10px;
+}
+
+.title-main-section8 h2{
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .container-s8 {
@@ -905,6 +909,11 @@ a {
   width: 100%;
 }
 
+.card-body h3{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
 .container-h3-s8{
   display: flex;
   justify-content: center;
@@ -913,6 +922,9 @@ a {
 
 .container-text-s8{
   padding-top: 10px;
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-align: center;
 }
 
 .container-shop-now8{
@@ -924,7 +936,8 @@ a {
 }
 
 .shop-now8{
-  font-weight: bold;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .iper-centrale-s8:hover{
