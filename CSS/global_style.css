@@ -974,12 +974,16 @@ a {
 }
 
 .title-main-section9 {
-  font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   justify-content: left;
   width: 100%;
   padding: 10px;
+}
+
+.title-main-section9 h2{
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .container-s9 {
@@ -1013,6 +1017,8 @@ a {
   display: flex;
   justify-content: center;
   padding-top: 15px;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .container-text-s9{
