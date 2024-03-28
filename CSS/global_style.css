@@ -747,7 +747,8 @@ a {
 }
 
 .testo-section6 h1{
-  font-size: xx-large;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 .iper-shop-now6{
@@ -761,6 +762,8 @@ a {
   display: flex;
   align-items: center;
   background-color: black;
+  font-size: 1rem;
+  font-weight: 500;
   color: white;
   padding:10px;
   border-radius: 5px;
