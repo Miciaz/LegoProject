@@ -9,7 +9,8 @@
 @font-face {
   font-family: 'Cera Pro';
   src: url('CeraPro-Bold.woff2');
-  font-weight: 700;
+  /* font-weight: 700; */
+  text-align: center;
   font-style: normal;
   font-display: swap;
 }
