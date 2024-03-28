@@ -746,14 +746,15 @@ a {
 }
 
 .text_bar {
-  font-size: xx-large;
-  font-weight: bold;
+  font-size: clamp(1.4375rem,.653061vw + 1.28444rem,1.9375rem);
+  font-weight: 700;
+  letter-spacing: -.01em;
   color: aliceblue;
 }
 
 .button-section6 {
   display: flex;
-  gap: 25px;
+  gap: 2.5rem;
 }
 
 .button6{
