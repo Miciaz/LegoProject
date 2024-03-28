@@ -70,7 +70,14 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   padding-left: 11em;
+}
+
+.mar10-day-sale{
+  font-size: 0.75rem;
+  line-height: 1.1875rem;
+  font-weight: 400;
 }
 
 .mar10 {
@@ -389,6 +396,8 @@
   padding: 10px;
   color: black;
 }
+
+
 
 .container-s2 {
   display: flex;
