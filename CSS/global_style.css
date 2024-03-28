@@ -996,6 +996,7 @@ a {
   margin: 15px;
   width: 45%;
   gap:15px;
+  cursor: pointer;
 }
 
 .button-f2{
@@ -1071,7 +1072,8 @@ a {
   padding:20px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: orange;
+  background-color: #e96f14;
+  cursor: pointer;
 }
 
 .social-footer2{
@@ -1084,6 +1086,14 @@ a {
 .svg-social-f2{
   display: flex;
   gap:10px;
+}
+
+.link-f2:hover{
+  text-decoration: underline;
+}
+
+.li-f2-link:hover{
+  text-decoration:  underline;
 }
 
 /*STILE FOOTER 3*/
@@ -1112,8 +1122,12 @@ a {
 
 }
 
-.link {
+.link-f3 {
   color: white;
+}
+
+.link-f3:hover{
+  text-decoration: underline;
 }
 
 .width-adjuster {
