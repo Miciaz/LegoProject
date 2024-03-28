@@ -66,6 +66,9 @@
   text-decoration: none;
   color: #005aD2;
 }
+.mar10-shop-now:hover{
+  text-decoration: underline;
+} 
 
 .sign-in-box {
   display: flex;
