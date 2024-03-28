@@ -1028,12 +1028,15 @@ a {
 .container-shop-now9{
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5px;
   padding: 20px;
 }
 
 .shop-now9{
-  font-weight: bold;
+  
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .iper-centrale-s9:hover{
