@@ -688,7 +688,7 @@ a {
 .contenitore-generale6{
   background-color: #2E0F54;
   width: 100%;
-  color: #0000008c;
+  color: black;
 }
 .contenitore-section6 {
   display: flex;
@@ -729,10 +729,13 @@ a {
 }
 
 .iper6{
+  display: flex;
+  align-items: center;
   background-color: black;
   color: white;
   padding:10px;
   border-radius: 5px;
+  gap: 10px;
 }
 
 .iper6:hover{
