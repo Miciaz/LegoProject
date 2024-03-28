@@ -59,7 +59,7 @@
   color: black;
   font-size: small;
   font-weight: 500;
-  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .button-area-giochi:hover {
