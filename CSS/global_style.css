@@ -361,7 +361,9 @@
     line-height: 1.62;
     font-weight: 500;
   }
-
+  .icon .italic-text-icon {
+    font-style: italic;
+  }
   .icon-container a:hover{
     text-decoration: underline;
   }
@@ -397,7 +399,9 @@
   color: black;
 }
 
-
+.title-main-section2 h2 {
+  font-weight: 500;
+}
 
 .container-s2 {
   display: flex;
