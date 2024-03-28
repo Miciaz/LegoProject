@@ -10,8 +10,10 @@
   font-family: 'Cera Pro';
   src: url('CeraPro-Bold.woff2');
   font-weight: 700;
-  font-style: normal;
-  font-display: swap;
+  /*font-style:normal;
+  font-display:swap;*/
+  display:flex;
+  flex-direction: column-reverse;
 }
 
 @font-face {
