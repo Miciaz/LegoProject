@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'CeraPRO';
   src:  url('CeraPro-Regular.woff2') format('woff2'),
-        url('CeraPro-Regular.woff2') format('woff');
+        url('CeraPro-Medium.woff2') format('woff'),
+        url('CeraPro-Bold.woff2') format('woff');
 }
 
 *{
