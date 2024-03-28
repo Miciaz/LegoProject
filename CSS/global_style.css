@@ -40,8 +40,10 @@
   padding-right: 12px;
   border-radius: 3px;
   color: black;
-  font-size: small;
+  font-size: 0.75rem;
+  text-transform: uppercase;
   font-weight: 600;
+  /* line-height: 1.5625rem; */
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
