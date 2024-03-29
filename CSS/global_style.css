@@ -1155,8 +1155,14 @@ a {
   padding: 10px;
 }
 
+.box2-ul h3{
+  font-size: 1rem;
+  font-weight: 700;
+}
+
 .li-f2{
   display: flex;
+  font-size: 1rem;
   flex-direction: column;
   gap:20px;
   list-style-type: none;
@@ -1184,7 +1190,10 @@ a {
 }
 
 .email-input-f2{
-  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
 }
 
 .email-button-f2{
@@ -1203,9 +1212,23 @@ a {
   gap:30px;
 }
 
+.social-footer2 h3{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.subscribe-footer2 h3{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .svg-social-f2{
   display: flex;
   gap:10px;
+}
+
+.link-logo-f2{
+  font-weight: 400;
 }
 
 .link-f2:hover{
