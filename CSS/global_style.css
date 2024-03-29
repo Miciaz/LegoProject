@@ -569,14 +569,14 @@ a {
 
 /*stile topbar carosello*/
 .carousel-topbar {
-  margin-left: 100px;
-  font-size: 1.9rem;
-  padding-bottom: 15px;
+  margin-left: 8.5em;
+  padding-bottom: 1em;
   position: relative;
 }
 
 .carousel-title {
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 400;
 }
 
 /*style immagine*/
@@ -610,12 +610,12 @@ a {
   flex-direction: column;
   justify-content: space-between;
   color: white;
-  padding: 12px 10px 10px 10px ;
+  padding: 12px 10px 10px 10px; 
 }
 
 .product-name {
   font-size: 1rem;
-  font-weight: 800;
+  font-weight: 500;
   height: 20%;
   padding: 10px 15px;
 }
@@ -632,8 +632,11 @@ a {
 .price-product-carousel {
   padding-left: 15px;
   padding-top: 25px;
-  font-size: 1rem;
-  font-weight: bolder;
+}
+
+.price-product-carousel p{
+  font-size: 1.20rem;
+  font-weight: 700;
 }
 
 .trademark {
@@ -912,7 +915,7 @@ a {
 
 .card-body h3{
   font-size: 1.25rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .container-h3-s8{
