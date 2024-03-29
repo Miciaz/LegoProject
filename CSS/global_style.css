@@ -655,14 +655,13 @@ a {
 
 .button-addtoBag {
   background-color: #F8CF31;
-  font-size: small;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
   height: 50px;
   width: 90%;
   justify-content: center;
   border-radius: 3px;
   border: none;
-  font-size: 1.0rem;
 }
 
 .button-addtoBag:hover{
