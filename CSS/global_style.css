@@ -472,7 +472,8 @@
   text-decoration: underline;
 }
 
-/*STILE SECTION 3*/
+/*CAROSELLO SECTION 3 E 5*/
+
 .section-3 {
   height: 70%;
   width: auto;
@@ -577,6 +578,24 @@ a {
 .carousel-title {
   font-size: 2rem;
   font-weight: 400;
+}
+
+/*wishlist*/
+.wishlist-carousel {
+  width: 30px;
+  height: 30px;
+  top: 10px;
+  left: 15px;
+  z-index: 1;
+  position: absolute;
+}
+
+.heart-svg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*style immagine*/
@@ -684,7 +703,6 @@ a {
 
 /*scrollbar carosello*/
 
-
 /*STILE SECTION4*/
 #section4-container {
   background-color: white;
@@ -729,7 +747,7 @@ a {
 #btt-section4:hover {
   background-color: rgb(224, 224, 224);
 }
- 
+
 /*STILE SECTION 6BAR*/
 .container-section6_bar {
   display: flex;
@@ -841,6 +859,8 @@ a {
   color: black;
 }
 
+/*SECTION 7 CAROSELLO*/
+
 #section7-carousel {
   background-color: #2E0F54;
 }
@@ -853,10 +873,12 @@ a {
   color: white;
   background-color: rgb(76, 38, 111);
 }
+
 #btt-section7:hover {
   color: black;
   background-color: white;
 }
+
 /*STILE SECTION 8*/
 .container-section8 {
   display: flex;
