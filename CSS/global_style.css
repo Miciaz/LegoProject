@@ -1088,6 +1088,10 @@ a {
   /* width: 100%; */
 }
 
+.container-footer1 a{
+  color:#005aD2;
+}
+
 /*STILE FOOTER 2*/
 .container-footer2-generale{
   width: 100%;
