@@ -1318,3 +1318,38 @@ a {
 #footer-background{
   background-color: #1f1d48;
 }
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
+  .container-footer1 p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .container-footer1 p::after {
+    content: " Read more";
+    color: #005aD2;
+    cursor: pointer;
+  }
+  .container-footer1 a[href*="gaming"]::after {
+    content: none;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+  .box2-footer2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box2-ul {
+    width: 50%; 
+    box-sizing: border-box;
+    padding: 0 10px; 
+  }
+
+  .box2-ul:nth-child(3),
+  .box2-ul:nth-child(4) {
+    margin-top: 20px; 
+  }
+}
+
+
