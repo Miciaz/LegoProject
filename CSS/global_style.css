@@ -47,6 +47,7 @@
   background-color: #f8f8f8;
 }
 
+
 .button-area-giochi {
   display: flex;
   gap: 5px;
@@ -228,6 +229,38 @@
 
 #menu-container{
   background-color: rgb(255, 213, 2)
+}
+
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (orientation: portrait) {
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      max-width: 100rem;
+      margin: 0 auto;
+      gap: 11rem;
+      align-items: center;
+      height: 3.7rem;
+      background-color: #f8f8f8;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-around;
+      height: 4.7rem;
+      max-width: 100rem;
+      margin: 0 auto;
+      gap: 37rem;
+    }
+    .menu-logo-links {
+      font-size: 1em;
+      display: flex;
+      align-items: center;
+      gap: 60px;
+    }
+   
 }
 
 /* STILE SECTION 1 */
