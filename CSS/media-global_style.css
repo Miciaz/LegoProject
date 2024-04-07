@@ -27,5 +27,30 @@
       align-items: center;
       gap: 60px;
     }
-   
+    .container-footer1 p {
+      display: -webkit-box;
+      -webkit-line-clamp: 3; 
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .container-footer1 p::after {
+      content: " Read more";
+      color: #005aD2;
+      cursor: pointer;
+    }
+    .container-footer1 a[href*="gaming"]::after {
+      content: none;
+    }
+    .container-footer1 {
+      margin: 0 30px; 
+    }
+    .container-footer1 p {
+      font-size: 14px; 
+    }
+    .line-divider {
+      border: none; 
+      border-top: 1px solid #ccc; 
+      margin-top: 20px; 
+      margin-bottom: 20px; 
+  }
 }

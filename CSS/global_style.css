@@ -1363,26 +1363,3 @@ a {
 #footer-background{
   background-color: #1f1d48;
 }
-@media screen and (min-width: 1024px) and (min-height: 1366px) {
-  .container-footer1 p {
-    display: -webkit-box;
-    -webkit-line-clamp: 3; 
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .container-footer1 p::after {
-    content: " Read more";
-    color: #005aD2;
-    cursor: pointer;
-  }
-  .container-footer1 a[href*="gaming"]::after {
-    content: none;
-  }
-  .container-footer1 {
-    margin: 0 30px; /* Imposta i margini a 10px a sinistra e a destra */
-  }
-  .container-footer1 p {
-    font-size: 14px; /* Riduci la dimensione del testo a 14px */
-  }
-}
-
