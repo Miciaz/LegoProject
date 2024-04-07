@@ -51,10 +51,14 @@
       font-size: 14px; 
     }
 /* STYLE FOOTER2 MEDIA IPAD */
-    .box3-footer2{
-      border-top: 1px solid #ccc;
-      border-bottom: 1px solid #ccc;
-      padding-top: 40px;
-    }
-   
+.box2-ul{
+  flex-wrap: wrap;
+}
+
+.box3-footer2{
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-top: 40px;
+}
+
 }
