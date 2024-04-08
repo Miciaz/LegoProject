@@ -83,15 +83,22 @@
 /*MEDIA QUERY IPHONE 12 PRO*/
 @media only screen 
   and (min-device-width: 390px) 
-  and (max-device-width: 428px) 
+  and (max-device-height: 844px) 
   and (orientation: portrait) {
-/* STYLE NAVBAR MEDIA IPHONE */
-.contenitore-generale {
-  width: 100%; /* Adatta la larghezza del container allo schermo */
-  margin: 0 auto; /* Centra il container orizzontalmente */
-  padding: 20px; /* Aggiunge un padding al container */
-}
 
+/* STYLE CONTENITORE GENERALE MEDIA IPHONE */
+    .contenitore-generale {
+      width: 100%; /* Adatta la larghezza del container allo schermo */
+      margin: 0 auto; /* Centra il container orizzontalmente */
+      padding: 20px; /* Aggiunge un padding al container */
+    }    
+/* STYLE NAVBAR MEDIA IPHONE */
+
+
+/* STYLE SECTION1 MEDIA IPHONE */
+.m_section1{
+  display: none;
+}
 }
 
 
