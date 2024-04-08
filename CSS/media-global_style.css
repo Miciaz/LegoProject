@@ -30,6 +30,13 @@
       align-items: center;
       gap: 60px;
     }
+/* STYLE SECTION1 MEDIA IPAD */
+.icon img {
+  margin: 0 auto;
+  width: 6rem; /* per omologare tutte le immagini */
+  max-width: 140px;
+  height: auto; /* per non distorcerle */
+}
 
 /* STYLE FOOTER1 MEDIA IPAD */
     .container-footer1 p {
