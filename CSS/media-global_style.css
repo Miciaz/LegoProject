@@ -42,9 +42,11 @@
       color: #005aD2;
       cursor: pointer;
     }
+
     .container-footer1 a[href*="gaming"]::after {
       content: none;
     }
+
     .container-footer1 {
       margin: 0 30px; 
       margin-bottom: 50px;
@@ -54,24 +56,24 @@
     }
 
 /* STYLE FOOTER2 MEDIA IPAD */
-.box2-ul{
-  flex-wrap: wrap;
-}
+    .box2-ul{
+      flex-wrap: wrap;
+    }
 
-.box3-footer2{
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  padding-top: 40px;
-}
+    .box3-footer2{
+      border-top: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      padding-top: 40px;
+    }
 
 /* STYLE FOOTER3 MEDIA IPAD */
-.container-footer3{
-  margin-top: 35px;
-}
+    .container-footer3{
+      margin-top: 35px;
+    }
 
-.testo{
-  padding: 20px;
-}
+    .testo{
+      padding: 20px;
+    }
 
 
 }
