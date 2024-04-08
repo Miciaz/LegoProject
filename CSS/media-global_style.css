@@ -79,3 +79,19 @@
 
 
 }
+
+/*MEDIA QUERY IPHONE 12 PRO*/
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 428px) 
+  and (orientation: portrait) {
+/* STYLE NAVBAR MEDIA IPHONE */
+.contenitore-generale {
+  width: 100%; /* Adatta la larghezza del container allo schermo */
+  margin: 0 auto; /* Centra il container orizzontalmente */
+  padding: 20px; /* Aggiunge un padding al container */
+}
+
+}
+
+
