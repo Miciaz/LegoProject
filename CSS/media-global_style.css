@@ -10,7 +10,7 @@
       justify-content: space-around;
       max-width: 100rem;
       margin: 0 auto;
-      gap: 11rem;
+      gap: 2rem;
       align-items: center;
       height: 3.7rem;
       background-color: #f8f8f8;
@@ -22,7 +22,7 @@
       height: 4.7rem;
       max-width: 100rem;
       margin: 0 auto;
-      gap: 37rem;
+      gap: 18rem;
     }
     .menu-logo-links {
       font-size: 1em;
@@ -91,7 +91,7 @@
   display: none;
 } */
 
-.navbar {
+/* .navbar {
   display: flex;
   justify-content: center;
   max-width: 100rem;
@@ -100,7 +100,7 @@
   align-items: center;
   height: 3.7rem;
   background-color: #f8f8f8;
-}
+} */
 
 .button-area-giochi{
   display: none;
