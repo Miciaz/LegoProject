@@ -28,8 +28,10 @@
       align-items: center;
       gap: 60px;
     }
+
 /* STYLE FOOTER1 MEDIA IPAD */
     .container-footer1 p {
+      margin: 15px;
       display: -webkit-box;
       -webkit-line-clamp: 3; 
       -webkit-box-orient: vertical;
@@ -45,11 +47,12 @@
     }
     .container-footer1 {
       margin: 0 30px; 
-      margin-bottom: 20px;
+      margin-bottom: 50px;
     }
     .container-footer1 p {
       font-size: 14px; 
     }
+
 /* STYLE FOOTER2 MEDIA IPAD */
 .box2-ul{
   flex-wrap: wrap;
@@ -60,5 +63,15 @@
   border-bottom: 1px solid #ccc;
   padding-top: 40px;
 }
+
+/* STYLE FOOTER3 MEDIA IPAD */
+.container-footer3{
+  margin-top: 35px;
+}
+
+.testo{
+  padding: 20px;
+}
+
 
 }
