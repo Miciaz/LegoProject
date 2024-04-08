@@ -86,14 +86,32 @@
   and (max-device-height: 844px) 
   and (orientation: portrait) {
 
-/* STYLE CONTENITORE GENERALE MEDIA IPHONE */
-    .contenitore-generale {
-      width: 100%; /* Adatta la larghezza del container allo schermo */
-      margin: 0 auto; /* Centra il container orizzontalmente */
-      padding: 20px; /* Aggiunge un padding al container */
-    }    
 /* STYLE NAVBAR MEDIA IPHONE */
+.navbar-container-general {
+  display: none;
+}
+/* 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100rem;
+  margin: 0 auto;
+  gap: 17rem;
+  align-items: center;
+  height: 3.7rem;
+  background-color: #f8f8f8;
+}
 
+.button-area-giochi{
+  display: none;
+} */
+
+/* STYLE CONTENITORE GENERALE MEDIA IPHONE */
+.contenitore-generale {
+  width: 100%; /* Adatta la larghezza del container allo schermo */
+  margin: 0 auto; /* Centra il container orizzontalmente */
+  padding: 20px; /* Aggiunge un padding al container */
+}    
 
 /* STYLE SECTION1 MEDIA IPHONE */
 .m_section1{
