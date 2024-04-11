@@ -1,104 +1,98 @@
 /* MEDIA QUERY IPAD PRO */
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (orientation: portrait) {
+@media only screen and (min-device-width: 901px) and (max-device-width: 1200px) and (orientation: portrait) {
+  /* STYLE NAVBAR MEDIA IPAD */
+  .sign-in-link-style > span {
+    border: 0px;
+    clip: rect(0px, 0px, 0px, 0px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  .sign-in-box {
+    gap: 20px;
+  }
 
-/* STYLE NAVBAR MEDIA IPAD */
-    .navbar {
-      display: flex;
-      justify-content: space-around;
-      max-width: 100rem;
-      margin: 0 auto;
-      gap: 2rem;
-      align-items: center;
-      height: 3.7rem;
-      background-color: #f8f8f8;
-    }
+  .menu {
+    display: flex;
+    height: 4.7rem;
+    max-width: 100rem;
+  }
 
-    .menu {
-      display: flex;
-      justify-content: space-around;
-      height: 4.7rem;
-      max-width: 100rem;
-      margin: 0 auto;
-      gap: 18rem;
-    }
-    .menu-logo-links {
-      font-size: 1em;
-      display: flex;
-      align-items: center;
-      gap: 60px;
-    }
-/* STYLE SECTION1 MEDIA IPAD */
-.icon img {
-  margin: 0 auto;
-  width: 6rem; /* per omologare tutte le immagini */
-  max-width: 140px;
-  height: auto; /* per non distorcerle */
-}
+  .menu-logo-links {
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    margin-right: 15rem;
+  }
 
-/* STYLE FOOTER1 MEDIA IPAD */
-    .container-footer1 p {
-      margin: 15px;
-      display: -webkit-box;
-      -webkit-line-clamp: 3; 
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .container-footer1 p::after {
-      content: " Read more";
-      color: #005aD2;
-      cursor: pointer;
-    }
+  /* STYLE SECTION1 MEDIA IPAD */
+  .icon img {
+    margin: 0 auto;
+    width: 6rem; /* per omologare tutte le immagini */
+    max-width: 140px;
+    height: auto; /* per non distorcerle */
+  }
 
-    .container-footer1 a[href*="gaming"]::after {
-      content: none;
-    }
+  /* STYLE FOOTER1 MEDIA IPAD */
+  .container-footer1 p {
+    margin: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .container-footer1 p::after {
+    content: " Read more";
+    color: #005ad2;
+    cursor: pointer;
+  }
 
-    .container-footer1 {
-      margin: 0 30px; 
-      margin-bottom: 50px;
-    }
-    .container-footer1 p {
-      font-size: 12px; 
-    }
+  .container-footer1 a[href*="gaming"]::after {
+    content: none;
+  }
 
-/* STYLE FOOTER2 MEDIA IPAD */
-    .box2-ul{
-      flex-wrap: wrap;
-    }
+  .container-footer1 {
+    margin: 0 30px;
+    margin-bottom: 50px;
+  }
+  .container-footer1 p {
+    font-size: 12px;
+  }
 
-    .box3-footer2{
-      border-top: 1px solid #ccc;
-      border-bottom: 1px solid #ccc;
-      padding-top: 40px;
-    }
+  /* STYLE FOOTER2 MEDIA IPAD */
+  .box2-ul {
+    flex-wrap: wrap;
+  }
 
-/* STYLE FOOTER3 MEDIA IPAD */
-    .container-footer3{
-      margin-top: 35px;
-    }
+  .box3-footer2 {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding-top: 40px;
+  }
 
-    .testo{
-      padding: 20px;
-    }
+  /* STYLE FOOTER3 MEDIA IPAD */
+  .container-footer3 {
+    margin-top: 35px;
+  }
 
-
+  .testo {
+    padding: 20px;
+  }
 }
 
 /*MEDIA QUERY IPHONE 12 PRO*/
-@media only screen 
-  and (min-device-width: 390px) 
-  and (max-device-height: 844px) 
-  and (orientation: portrait) {
-
-/* STYLE NAVBAR MEDIA IPHONE */
-/* .navbar-container-general {
+@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (orientation: portrait) {
+  /* STYLE NAVBAR MEDIA IPHONE */
+  /* .navbar-container-general {
   display: none;
 } */
 
-/* .navbar {
+  /* .navbar {
   display: flex;
   justify-content: center;
   max-width: 100rem;
@@ -109,65 +103,65 @@
   background-color: #f8f8f8;
 } */
 
-.button-area-giochi{
-  display: none;
-}
+  .button-area-giochi {
+    display: none;
+  }
 
-.sign-in-box{
-  display: none;
-}
+  .sign-in-box {
+    display: none;
+  }
 
-.menu-links-cnt {
-  display: none;
-}
+  .menu-links-cnt {
+    display: none;
+  }
 
-.menu-search-shop {
-  display: none;
-}
+  .menu-search-shop {
+    display: none;
+  }
 
-/* STYLE CONTENITORE GENERALE MEDIA IPHONE */
-.contenitore-generale {
-  width: 100%; /* Adatta la larghezza del container allo schermo */
-  margin: 0 auto; /* Centra il container orizzontalmente */
-  padding: 20px; /* Aggiunge un padding al container */
-}    
+  /* STYLE CONTENITORE GENERALE MEDIA IPHONE */
+  .contenitore-generale {
+    width: 100%; /* Adatta la larghezza del container allo schermo */
+    margin: 0 auto; /* Centra il container orizzontalmente */
+    padding: 20px; /* Aggiunge un padding al container */
+  }
 
-/* STYLE SECTION1 MEDIA IPHONE */
-.m_section1{
-  display: none;
-}
+  /* STYLE SECTION1 MEDIA IPHONE */
+  .m_section1 {
+    display: none;
+  }
 }
 
 /* STYLE FOOTER2 MEDIA IPHONE */
 
-.container-footer2-generale{
+.container-footer2-generale {
   width: 100%;
   background-color: #1f1d48;
 }
 
-.f_section2{
+.f_section2 {
   max-width: 100rem;
   margin: 0 auto;
-  padding-top:30px ;
+  padding-top: 30px;
 }
 
-.container-generale-footer2{
+.container-generale-footer2 {
   display: flex;
   flex-direction: column;
   background-color: #1f1d48;
 }
 
-.div1-footer2{
+.div1-footer2 {
   display: flex;
   background-color: #1f1d48;
   margin-bottom: 40px;
 }
-.div2-footer2{
+.div2-footer2 {
   height: 100px;
   background-color: #1f1d48;
 }
 
-.box1-footer2{
+.box1-footer2 {
   display: flex;
   flex-direction: column;
   height: auto;
@@ -175,51 +169,50 @@
   background-color: #1f1d48;
 }
 
-.box1-logo{
+.box1-logo {
   display: flex;
   flex-direction: column;
-  align-items:self-start;
-  gap:90px;
+  align-items: self-start;
+  gap: 90px;
   height: auto;
   width: 100%;
   margin-bottom: 20px;
 }
 
-.logo-footer2{
+.logo-footer2 {
   height: 10px;
   width: 100px;
   margin: 15px;
 }
 
-.botton-footer2{
+.botton-footer2 {
   display: flex;
   flex-direction: row;
-  background-color: rgb(24,21,45);
+  background-color: rgb(24, 21, 45);
   color: #f0f0f0;
   padding: 7px;
   margin: 15px;
   width: 45%;
-  gap:15px;
+  gap: 15px;
   cursor: pointer;
 }
 
-.button-f2{
+.button-f2 {
   font-size: medium;
   background: transparent;
   border: none;
   color: white;
-  
 }
 
-.box1-iper{
+.box1-iper {
   display: flex;
   flex-direction: column;
-  margin:15px;
+  margin: 15px;
   gap: 30px;
   color: white;
 }
 
-.box2-footer2{
+.box2-footer2 {
   display: flex;
   flex-direction: row;
   height: auto;
@@ -227,7 +220,7 @@
   background-color: #1f1d48;
 }
 
-.box2-ul{
+.box2-ul {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -240,20 +233,20 @@
   flex-wrap: wrap;
 }
 
-.box2-ul h3{
+.box2-ul h3 {
   font-size: 1rem;
   font-weight: 700;
 }
 
-.li-f2{
+.li-f2 {
   display: flex;
   font-size: 1rem;
   flex-direction: column;
-  gap:20px;
+  gap: 20px;
   list-style-type: none;
 }
 
-.box3-footer2{
+.box3-footer2 {
   display: flex;
   justify-content: space-between;
   height: 200px;
@@ -262,71 +255,69 @@
   color: white;
 }
 
-.subscribe-footer2{
+.subscribe-footer2 {
   display: flex;
   flex-direction: column;
-  gap:10px;
+  gap: 10px;
   margin: 15px;
 }
 
-.email-footer2{
+.email-footer2 {
   display: flex;
-
 }
 
-.email-input-f2{
+.email-input-f2 {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 200px;
 }
 
-.email-button-f2{
+.email-button-f2 {
   border: none;
-  padding:20px;
+  padding: 20px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #e96f14;
   cursor: pointer;
 }
 
-.social-footer2{
+.social-footer2 {
   display: flex;
   flex-direction: column;
   width: 300px;
-  gap:30px;
+  gap: 30px;
 }
 
-.social-footer2 h3{
+.social-footer2 h3 {
   font-size: 1rem;
   font-weight: 500;
 }
 
-.subscribe-footer2 h3{
+.subscribe-footer2 h3 {
   font-size: 1rem;
   font-weight: 500;
 }
 
-.svg-social-f2{
+.svg-social-f2 {
   display: flex;
-  gap:10px;
+  gap: 10px;
 }
 
-.link-logo-f2{
+.link-logo-f2 {
   font-weight: 400;
 }
 
-.link-f2:hover{
+.link-f2:hover {
   text-decoration: underline;
 }
 
-.li-f2-link:hover{
-  text-decoration:  underline;
+.li-f2-link:hover {
+  text-decoration: underline;
 }
 
-
 /*media query caroselli*/
-@media  screen and (min-width: 1201px) {
+@media screen and (min-width: 1201px) {
   .carousel-card {
     width: calc(25% + 0.546875rem);
   }

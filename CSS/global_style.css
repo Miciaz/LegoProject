@@ -23,10 +23,10 @@
 }
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Cera Pro';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cera Pro';
 }
 
 /*STILE NAVBAR*/
@@ -38,15 +38,26 @@
 
 .navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
   max-width: 100rem;
-  margin: 0 auto;
-  gap: 17rem;
   align-items: center;
   height: 3.7rem;
   background-color: #f8f8f8;
+  margin: 0 1.5rem;
 }
 
+#nav-container{
+  background-color: #f8f8f8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.area-giochi {
+  display: flex;
+  margin-left: 0 2rem;
+}
 
 .button-area-giochi {
   display: flex;
@@ -138,14 +149,22 @@
   text-decoration: none;
   color: black;
 }
+
 /**style menu**/
+.menu-container {
+  display: flex;
+  background-color: rgb(255, 213, 2);
+  width: 100%;
+  justify-content: center;
+}
+
 .menu {
   display: flex;
-  justify-content: space-around;
   height: 4.7rem;
+  width: 100%;
   max-width: 100rem;
-  margin: 0 auto;
-  gap: 53rem;
+  margin: 0 2rem;
+  justify-content: space-between;
 }
 
 .menu-logo{
@@ -221,46 +240,6 @@
 
 .shop-logo {
   color: black;
-}
-
-#nav-container{
-  background-color: #f8f8f8;
-}
-
-#menu-container{
-  background-color: rgb(255, 213, 2)
-}
-
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (orientation: portrait) {
-    .navbar {
-      display: flex;
-      justify-content: space-around;
-      max-width: 100rem;
-      margin: 0 auto;
-      gap: 2rem;
-      align-items: center;
-      height: 3.7rem;
-      background-color: #f8f8f8;
-    }
-
-    .menu {
-      display: flex;
-      justify-content: space-around;
-      height: 4.7rem;
-      max-width: 100rem;
-      margin: 0 auto;
-      gap: 37rem;
-    }
-    .menu-logo-links {
-      font-size: 1em;
-      display: flex;
-      align-items: center;
-      gap: 60px;
-    }
-   
 }
 
 /* STILE SECTION 1 */
