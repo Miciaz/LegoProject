@@ -56,12 +56,12 @@
     display: none;
   }
   .img-section1-mobile{
-    width: 414px;
+    width: 390px;
     height: auto;
     /* max-width: 300px; */
   }
   .imgs1-mobile{
-    width: 414px;
+    width: 390px;
     height: auto;
   }
 
@@ -122,7 +122,8 @@
   /*proprietà delle container generale delle icone*/
 .icon-container-mobile {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: center;
   align-items: center; /* per centrare le iconcine */
   text-align: center; /* per centrare il testo */
@@ -131,6 +132,18 @@
   max-width: 100rem; 
   margin: 0 auto;
   padding-bottom: 1%;
+  /* gap: 1.25rem; */
+}
+
+.icons1-4-mobile{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 1.25rem;
+}
+
+.icons5-8-mobile{
+  display: flex;
   gap: 1.25rem;
 }
 
