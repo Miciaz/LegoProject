@@ -243,6 +243,10 @@
 }
 
 /* STILE SECTION 1 */
+.m-section1-mobile{
+  display: none;
+}
+
 .contenitore-generale {
     width: 100%;
     margin: 0 auto;
