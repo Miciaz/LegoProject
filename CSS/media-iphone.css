@@ -132,7 +132,7 @@
   max-width: 100rem; 
   margin: 0 auto;
   padding-bottom: 1%;
-  /* gap: 1.25rem; */
+  gap: 1.25rem;
 }
 
 .icons1-4-mobile{
@@ -167,6 +167,10 @@
 }
 
 
+.m_section2-mobile{
+  padding-top: 65px;
+}
+
 .main-section2-mobile{
   display: flex;
   flex-shrink: 0;
@@ -175,7 +179,6 @@
   align-items: center;
   height: auto;
   width: 90%;
-  /* padding-top: 65px; */
   overflow: scroll;
 }
 
