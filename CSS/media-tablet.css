@@ -85,40 +85,7 @@
   }
 }
 
-/*MEDIA QUERY IPHONE 12 PRO*/
-@media only screen and (min-width: 320px) and (max-width: 768px) {
-  /* STYLE NAVBAR MEDIA IPHONE */
-  /* .navbar-container-general {
-  display: none;
-} */
 
-  /* .navbar {
-  display: flex;
-  justify-content: center;
-  max-width: 100rem;
-  margin: 0 auto;
-  gap: 0;
-  align-items: center;
-  height: 3.7rem;
-  background-color: #f8f8f8;
-} */
-
-  .button-area-giochi {
-    display: none;
-  }
-
-  .sign-in-box {
-    display: none;
-  }
-
-  .menu-links-cnt {
-    display: none;
-  }
-
-  .menu-search-shop {
-    display: none;
-  }
-}
 /*media query caroselli*/
 @media screen and (min-width: 1201px) {
     .carousel-card {

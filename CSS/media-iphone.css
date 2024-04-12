@@ -36,10 +36,18 @@
 .contenitore-generale {
     width: 100%; /* Adatta la larghezza del container allo schermo */
     margin: 0 auto; /* Centra il container orizzontalmente */
-    padding: 20px; /* Aggiunge un padding al container */
   }
 
   /* STYLE SECTION1 MEDIA IPHONE */
+
+  .m-section1-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
   .m-section1-mobile{
     display: flex;
   }
@@ -48,12 +56,68 @@
     display: none;
   }
   .img-section1-mobile{
-    max-width: 300px;
+    width: 414px;
+    height: auto;
+    /* max-width: 300px; */
   }
   .imgs1-mobile{
-    max-width: 390px;
+    width: 414px;
+    height: auto;
   }
 
+  /* text */
+  .contenitore-generale1-mobile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contenitore-section1-mobile{
+    display: flex;
+
+  }
+  .testo-section1-mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff4eb;
+    padding: 1.25rem 1.875rem;
+}
+
+  .testo-section1-mobile h2{
+    font-size: 1.125rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+  }
+  
+  .testo-section1-mobile p{
+    font-size: 0.875rem;
+  }
+
+  .iper-shop-now1-mobile{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .iper1-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding:10px;
+    border-radius: 5px;
+    gap: 10px;
+  }
+
+  .iper1-mobile:active{
+    background-color: white;
+    color: black;
+  }
 /* STYLE SECTION 8 MEDIA IPHONE */
 .main-section8{
   overflow: scroll;
@@ -84,6 +148,20 @@
 }
 
 /*STYLE SECTION 9 MEDIA IPHONE*/
+
+.main-section9{
+  overflow: scroll;
+}
+
+.main-section9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 90%;
+  padding-top: 10px;
+}
 
 /* STYLE FOOTER2 MEDIA IPHONE */
 
