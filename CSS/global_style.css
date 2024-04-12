@@ -717,7 +717,7 @@ a {
   padding: 12px 10px 10px 10px ;
 }
 
-@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3){
+/* @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3){
   .product-image-carousel {
     display: flex;
     justify-content: center;
@@ -726,7 +726,7 @@ a {
     width: 290px;
     background-color: white;
   }
-}
+} */
 
 /*scrollbar carosello*/
 
