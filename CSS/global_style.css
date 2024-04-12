@@ -396,6 +396,10 @@
   }
   
 /*STILE SECTION 2*/
+.m_section2-mobile{
+  display: none;
+}
+
 .container-section2 {
   display: flex;
   flex-direction: row;
