@@ -2,36 +2,150 @@
  /*MEDIA QUERY IPHONE 12 PRO*/
 @media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: portrait){
   /* STYLE NAVBAR MEDIA IPHONE */
-  /* .navbar-container-general {
+  .navbar-container-general {
   display: none;
-} */
+}
 
-  /* .navbar {
+.navbar-container-general-mobile{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-container-mobile{
   display: flex;
   justify-content: center;
-  max-width: 100rem;
-  margin: 0 auto;
-  gap: 0;
-  align-items: center;
-  height: 3.7rem;
+  
+}
+
+.navbar-mobile{
+  display: flex;
+  justify-content: center;
+  height: 55px;
   background-color: #f8f8f8;
+}
+
+.mar10-button-lr-mobile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* padding-left: 11em; */
+  width: 100%;
+}
+
+.mar10-day-sale-mobile{
+  font-size: 0.75rem;
+  line-height: 1.1875rem;
+  font-weight: 400;
+}
+
+.mar10-mobile {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 10px;
+}
+
+.mar10-shop-now-mobile {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #005aD2;
+}
+
+.x-button-mobile{
+  background-color: transparent;
+  border: none;
+  width: 50px;
+}
+
+/**style menu**/
+.menu-container-mobile {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  justify-content: space-around;
+  height: 68px;
+  border-bottom: 2px solid rgb(255, 213, 2);
+}
+
+.menu-mobile {
+  display: flex;
+  height: 4.7rem;
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 1rem;
+  justify-content: space-between;
+}
+
+.menu-logo-mobile{
+  height: 55px;
+  width: 55px;
+}
+
+.menu-logo-links-mobile {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1em;
+  align-items: center;
+  gap: 20px
+}
+
+.hamburger-btn{
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: none;
+}
+
+.menu-search-shop-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.search-logo {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  padding: 10px;
+  background-color: white;
+  border: none;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+
+/* .menu-search{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 } */
 
-  .button-area-giochi {
-    display: none;
-  }
+.sign-in-link-style{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .sign-in-box {
-    display: none;
-  }
+.heart-logo{
+  display: flex;
+  align-items: center;
+  color: black;
+}
 
-  .menu-links-cnt {
-    display: none;
-  }
+.shop-logo {
+  display: flex;
+  align-items: center;
+  color: black;
+}
 
-  .menu-search-shop {
-    display: none;
-  } 
 
 .contenitore-generale {
     width: 100%; /* Adatta la larghezza del container allo schermo */

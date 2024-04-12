@@ -1,17 +1,17 @@
 // script per carosello
 
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener("DOMContentLoaded", function () {
   // Inizializza i caroselli
-  initializeCarousel('carousel1');
-  initializeCarousel('carousel2');
-  initializeCarousel('carousel3');
-  initializeCarousel('carousel4');
+  initializeCarousel("carousel1");
+  initializeCarousel("carousel2");
+  initializeCarousel("carousel3");
+  initializeCarousel("carousel4");
 });
 
 function initializeCarousel(carouselId) {
   const carousel = document.getElementById(carouselId);
-  const buttonNext = carousel.querySelector('[data-button-next]');
-  const buttonPrev = carousel.querySelector('[data-button-prev]');
+  const buttonNext = carousel.querySelector("[data-button-next]");
+  const buttonPrev = carousel.querySelector("[data-button-prev]");
   let slideIndex = 0;
 
   function showSlides() {
@@ -42,6 +42,14 @@ function initializeCarousel(carouselId) {
   }
 
   showSlides(); // Mostra le slide iniziali
-  buttonNext.addEventListener('click', nextSlide);
-  buttonPrev.addEventListener('click', prevSlide);
+  buttonNext.addEventListener("click", nextSlide);
+  buttonPrev.addEventListener("click", prevSlide);
 }
+
+// SCRIPT PER FAR SPARIRE LA NAVBAR IN MODALITà MOBILE AL CLICK DEL X-BUTTON
+document
+  .querySelector(".x-button-mobile")
+  .addEventListener("click", function () {
+    var navbar = document.querySelector(".navbar-mobile");
+    navbar.style.display = "none";
+  });

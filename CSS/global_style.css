@@ -30,6 +30,10 @@
 }
 
 /*STILE NAVBAR*/
+.navbar-container-general-mobile{
+  display: none;
+}
+
 .navbar-container-general {
   position: sticky;
   height: auto;
