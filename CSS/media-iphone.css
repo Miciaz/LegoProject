@@ -1,91 +1,5 @@
-/* MEDIA QUERY IPAD PRO */
-@media only screen and (min-device-width: 901px) and (max-device-width: 1200px) and (orientation: portrait) {
-  /* STYLE NAVBAR MEDIA IPAD */
-  .sign-in-link-style > span {
-    border: 0px;
-    clip: rect(0px, 0px, 0px, 0px);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0px;
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-  }
-  
-  .sign-in-box {
-    gap: 20px;
-  }
-
-  .menu {
-    display: flex;
-    height: 4.7rem;
-    max-width: 100rem;
-  }
-
-  .menu-logo-links {
-    font-size: 1em;
-    display: flex;
-    align-items: center;
-    margin-right: 15rem;
-  }
-
-  /* STYLE SECTION1 MEDIA IPAD */
-  .icon img {
-    margin: 0 auto;
-    width: 6rem; /* per omologare tutte le immagini */
-    max-width: 140px;
-    height: auto; /* per non distorcerle */
-  }
-
-  /* STYLE FOOTER1 MEDIA IPAD */
-  .container-footer1 p {
-    margin: 15px;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  .container-footer1 p::after {
-    content: " Read more";
-    color: #005ad2;
-    cursor: pointer;
-  }
-
-  .container-footer1 a[href*="gaming"]::after {
-    content: none;
-  }
-
-  .container-footer1 {
-    margin: 0 30px;
-    margin-bottom: 50px;
-  }
-  .container-footer1 p {
-    font-size: 12px;
-  }
-
-  /* STYLE FOOTER2 MEDIA IPAD */
-  .box2-ul {
-    flex-wrap: wrap;
-  }
-
-  .box3-footer2 {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    padding-top: 40px;
-  }
-
-  /* STYLE FOOTER3 MEDIA IPAD */
-  .container-footer3 {
-    margin-top: 35px;
-  }
-
-  .testo {
-    padding: 20px;
-  }
-}
-
-/*MEDIA QUERY IPHONE 12 PRO*/
+/* STYLE CONTENITORE GENERALE MEDIA IPHONE */
+ /*MEDIA QUERY IPHONE 12 PRO*/
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   /* STYLE NAVBAR MEDIA IPHONE */
   /* .navbar-container-general {
@@ -117,10 +31,9 @@
 
   .menu-search-shop {
     display: none;
-  }
+  } 
 
-  /* STYLE CONTENITORE GENERALE MEDIA IPHONE */
-  .contenitore-generale {
+.contenitore-generale {
     width: 100%; /* Adatta la larghezza del container allo schermo */
     margin: 0 auto; /* Centra il container orizzontalmente */
     padding: 20px; /* Aggiunge un padding al container */
@@ -140,7 +53,7 @@
   .imgs1-mobile{
     max-width: 390px;
   }
-}
+
 /* STYLE SECTION 8 MEDIA IPHONE */
 .main-section8{
   overflow: scroll;
@@ -364,9 +277,4 @@
   flex-wrap: wrap;
 }
 
-/*media query caroselli*/
-@media screen and (min-width: 1201px) {
-  .carousel-card {
-    width: calc(25% + 0.546875rem);
-  }
 }
