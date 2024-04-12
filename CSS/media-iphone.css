@@ -118,6 +118,38 @@
     background-color: white;
     color: black;
   }
+
+  /*proprietà delle container generale delle icone*/
+.icon-container-mobile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* per centrare le iconcine */
+  text-align: center; /* per centrare il testo */
+  padding: 20px;
+  padding-top: 1%; 
+  max-width: 100rem; 
+  margin: 0 auto;
+  padding-bottom: 1%;
+  gap: 1.25rem;
+}
+
+.icon {
+  height: 59px;
+  width: 74px;
+  text-decoration: none; /* Rimuove il sottolineato dai link, utilissimo */
+  color: black; /* colore del testo nero */
+  margin-bottom: 15px;
+}
+
+.icon img{
+  height: 59px;
+  width: 74px;
+  
+}
+
+
+
 /* STYLE SECTION 8 MEDIA IPHONE */
 .main-section8{
   overflow: scroll;
