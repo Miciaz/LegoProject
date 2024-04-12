@@ -141,6 +141,34 @@
     max-width: 390px;
   }
 }
+/* STYLE SECTION 8MEDIA IPHONE */
+.main-section8{
+  overflow: scroll;
+  padding-top: 10px;
+}
+
+.title-main-section8 {
+  display: none;
+}
+
+.title-main-section8-mobile{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+  padding: 10px;
+  background-color: #300c54;
+  color: white;
+}
+
+.title-main-section8-mobile h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.container-s8{
+  overflow-x: scroll;
+}
 
 /* STYLE FOOTER2 MEDIA IPHONE */
 
