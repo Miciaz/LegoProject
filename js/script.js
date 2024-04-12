@@ -53,3 +53,13 @@ document
     var navbar = document.querySelector(".navbar-mobile");
     navbar.style.display = "none";
   });
+
+// SCRIPT PER FAR SI CHE AL CLICK DELL'HAMBUERGER MENU SI APRA UN OVERLAY CON I LINK CHE DESIDERIAMO
+document.addEventListener("DOMContentLoaded", function () {
+  const overlay = document.getElementById("overlay");
+  const hamburgerBtn = document.querySelector(".hamburger-btn");
+
+  hamburgerBtn.addEventListener("click", function () {
+    overlay.classList.toggle("active");
+  });
+});
