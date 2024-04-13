@@ -914,6 +914,9 @@ a {
   background-color: white;
 }
 
+.m-section7-mobile {
+  display: none;
+}
 /*STILE SECTION 8*/
 .container-section8 {
   display: flex;

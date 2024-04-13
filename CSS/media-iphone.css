@@ -574,7 +574,19 @@
 .iper-centrale-s2:hover{
   text-decoration: underline;
 }
+/*STYLE SECTION 6 (section 6 bar)*/
+.text_bar {
+    font-size: large;
+    margin-left: 20px;
+  }
+.m_section7 {
+  display: none;
+}
 
+.m-section7-mobile {
+  display: flex;
+  flex-direction: column;
+}
 
 /* STYLE SECTION 8 MEDIA IPHONE */
 .main-section8{
