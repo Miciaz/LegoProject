@@ -321,13 +321,13 @@
   .m_section1 {
     display: none;
   }
-  .img-section1-mobile{
+  /*.img-section1-mobile{
     width: 390px;
     height: auto;
-    /* max-width: 300px; */
-  }
+    max-width: 300px;
+  }*/
   .imgs1-mobile{
-    width: 390px;
+    width: 430px;
     height: auto;
   }
 
