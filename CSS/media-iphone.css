@@ -245,7 +245,8 @@
   padding-top: 1%; 
   max-width: 100rem; 
   margin: 0 auto;
-  padding-bottom: 1%;
+  padding-top: 50px;
+  padding-bottom: 80px;
   gap: 1.25rem;
 }
 
