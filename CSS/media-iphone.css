@@ -576,9 +576,10 @@
 }
 /*STYLE SECTION 6 (section 6 bar)*/
 .text_bar {
-    font-size: large;
-    margin-left: 20px;
-  }
+  font-size: large;
+  margin-left: 20px;
+}
+
 .m_section7 {
   display: none;
 }
