@@ -63,3 +63,13 @@ document.addEventListener("DOMContentLoaded", function () {
     overlay.classList.toggle("active");
   });
 });
+
+//  SCRIPT PER FAR SI CHE AL CLICK SULL'X-BUTTON DELL'OVERLAY, QUEST'ULTIMA PAGINA SI CHIUDA
+document.addEventListener("DOMContentLoaded", function () {
+  const overlay = document.getElementById("overlay");
+  const xBtn = document.querySelector(".x-button-mobile-overlay");
+
+  xBtn.addEventListener("click", function () {
+    overlay.classList.remove("active");
+  });
+});
