@@ -215,8 +215,6 @@
   flex-direction: column;
   align-items: baseline;
   padding-top: 20px;
-  margin-left: 20px;
-  gap: 20px;
 }
 
 .button-area-giochi-mobile {
@@ -227,6 +225,7 @@
   height: 38px;
   width: 350px;
   margin-right: 20px;
+  margin-left: 20px;
   background-color: #abd9ff;
   text-decoration: none;
   padding: 5px;
@@ -240,6 +239,54 @@
   box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 3px;
 }
 
+.link-overlay{
+  width: 100%;
+  font-size: 0.875rem;
+}
+
+.area-giochi-mobile{
+  padding-bottom: 25px;
+  border-top: none;
+}
+
+.overlay-link-mobile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50px;
+  padding-left: 20px;
+  border-top: 1px solid rgb(224, 224, 224);
+}
+
+.home-overlay-link{
+  border: none;
+}
+
+.sign-in-link-style-mobile{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.overlay-button-link{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.overlay-join{
+  display: flex;
+}
+
+
+
+/* .help-overlay-link{
+  border-bottom: 1px solid rgb(224, 224, 224);
+} */
 
 
 /* STYLE GENERAL MEDIA IPHONE */
