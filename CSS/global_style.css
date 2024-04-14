@@ -932,7 +932,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   height: auto;
   width: 90%;
   padding-top: 65px;
@@ -1031,10 +1030,10 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   height: auto;
   width: 90%;
-  padding-top: 65px;
+  /* padding-top: 65px; */
 }
 
 .title-main-section9 {
@@ -1043,6 +1042,7 @@ a {
   justify-content: left;
   width: 100%;
   padding: 10px;
+  padding-left: 3rem;
 }
 
 .title-main-section9 h2{

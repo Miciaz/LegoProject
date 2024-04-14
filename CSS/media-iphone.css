@@ -351,7 +351,7 @@
     max-width: 300px;
   }*/
   .imgs1-mobile{
-    width: 430px;
+    width: 391px;
     height: auto;
   }
 
@@ -516,13 +516,15 @@
   height: auto;
 }
 
-.card{
+/* .card{
   display: flex;
-  flex-direction: column;
-  padding-left: 1.25rem;
-  height: auto;
-  /* width: 100%; */
-}
+    flex-direction: column;
+    padding-left: 10rem;
+    margin-left: 10rem ;
+    height: auto;
+    width: 500px;
+  /* width: 100%; 
+} */
 
 .card a {
   display: flex;
@@ -599,6 +601,14 @@
 .main-section8{
   overflow: scroll;
   padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: auto;
+    width: 90%;
+    padding-top: 65px;
+
 }
 
 .title-main-section8 {
@@ -616,12 +626,28 @@
 }
 
 .title-main-section8-mobile h2{
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
 .container-s8{
-  overflow-x: scroll;
+  display: flex;
+  justify-content: center;
+  gap: 135px;
+}
+
+
+/* STYLE SECTION 8 MEDIA IPHONE */
+.main-section8{
+  overflow: scroll;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  height: auto;
+  width: 90%;
+  /* padding-top: 65px; */
 }
 
 /*STYLE SECTION 9 MEDIA IPHONE*/
@@ -634,20 +660,44 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   height: auto;
   width: 90%;
-  padding-top: 10px;
+  /* padding-top: 10px; */
+
 }
+.title-main-section9-mobile h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-left: 1rem;
+}
+.container-s9{
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+
 
 
 .card{
   display: flex;
   flex-direction: column;
-  padding-left: 1.25rem;
+  padding-left: 10rem;
+  margin-left: 11rem;
   height: auto;
-  width: 360px;
+  width: 500px;
 }
+
+.card9{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10rem;
+  margin-left: 14.5rem;
+  height: auto;
+  width: 500px;
+}
+
+
 
 /* STYLE FOOTER2 MEDIA IPHONE */
 
