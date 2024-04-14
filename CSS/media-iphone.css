@@ -182,7 +182,8 @@
 
 .overlay-bar{
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 250px;
   align-items: center;
   height: 30px;
   background-color: #f8f8f8;
