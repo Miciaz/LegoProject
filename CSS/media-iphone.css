@@ -530,10 +530,10 @@
   align-items: center;
 }
 
-.img-section2{
+/* .img-section2{
   height: 203px;
   width: 293px;
-}
+} */
 
 .container-h3-s2{
   display: flex;
@@ -590,6 +590,11 @@
   flex-direction: column;
 }
 
+.button-section6 {
+  display: flex;
+  gap: 0.4rem;
+}
+
 /* STYLE SECTION 8 MEDIA IPHONE */
 .main-section8{
   overflow: scroll;
@@ -633,6 +638,15 @@
   height: auto;
   width: 90%;
   padding-top: 10px;
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.25rem;
+  height: auto;
+  width: 360px;
 }
 
 /* STYLE FOOTER2 MEDIA IPHONE */
