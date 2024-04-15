@@ -54,56 +54,56 @@ const carosello1 = [
   },
   {
     img: "js/assets-caroselli/Stitch.png",
-    title: "Dune Atreides Royal Ornithopter",
+    title: "Stitch",
+    prezzo: "£49.99",
+  },
+  {
+    img: "js/assets-caroselli/40677.png",
+    title: "Prisoner of Azkaban",
     prezzo: "£149.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
+    img: "js/assets-caroselli/75375.png",
+    title: "Millenium Falcon",
     prezzo: "£149.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/main3_1.png",
+    title: "Talking Sort Hat",
+    prezzo: "£89.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/Main3_2.png",
+    title: "R2-D2",
+    prezzo: "£79.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/76269.png",
+    title: "Stark Tower",
+    prezzo: "£249.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/76425.png",
+    title: "Pivet Drive",
+    prezzo: "£49.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/lotus-flowers-product.png",
+    title: "Lotus Flowers",
+    prezzo: "£29.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/sunflowers-product.png",
+    title: "Sunflowers",
+    prezzo: "£29.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/cherry-blossoms-product.png",
+    title: "Cherry Blossoms",
+    prezzo: "£29.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
+    img: "js/assets-caroselli/75376.png",
     title: "Dune Atreides Royal Ornithopter",
     prezzo: "£149.99",
   },
@@ -111,127 +111,127 @@ const carosello1 = [
 
 const carosello2 = [
   {
+    img: "js/assets-caroselli/40677.png",
+    title: "Prisoner of Azkaban",
+    prezzo: "£149.99",
+  },
+  {
     img: "js/assets-caroselli/Dune.png",
     title: "Dune Atreides Royal Ornithopter",
     prezzo: "£149.99",
   },
   {
+    img: "js/assets-caroselli/main3_1.png",
+    title: "Talking Sort Hat",
+    prezzo: "£89.99",
+  },
+  {
     img: "js/assets-caroselli/Stitch.png",
+    title: "Stitch",
+    prezzo: "£49.99",
+  },
+  {
+    img: "js/assets-caroselli/75375.png",
+    title: "Millenium Falcon",
+    prezzo: "£149.99",
+  },
+  {
+    img: "js/assets-caroselli/lotus-flowers-product.png",
+    title: "Lotus Flowers",
+    prezzo: "£29.99",
+  },
+  {
+    img: "js/assets-caroselli/75376.png",
     title: "Dune Atreides Royal Ornithopter",
     prezzo: "£149.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/main3_2.png",
+    title: "R2-D2",
+    prezzo: "£79.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/sunflowers-product.png",
+    title: "Sunflowers",
+    prezzo: "£29.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/cherry-blossoms-product.png",
+    title: "Cherry Blossoms",
+    prezzo: "£29.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/76425.png",
+    title: "Pivet Drive",
+    prezzo: "£49.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/76269.png",
+    title: "Stark Tower",
+    prezzo: "£249.99",
   },
 ];
 
 const carosello3 = [
   {
+    img: "js/assets-caroselli/Stitch.png",
+    title: "Stitch",
+    prezzo: "£49.99",
+  },
+  {
+    img: "js/assets-caroselli/main3_1.png",
+    title: "Talking Sort Hat",
+    prezzo: "£89.99",
+  },
+  {
+    img: "js/assets-caroselli/75375.png",
+    title: "Millenium Falcon",
+    prezzo: "£149.99",
+  },
+  {
+    img: "js/assets-caroselli/76425.png",
+    title: "Pivet Drive",
+    prezzo: "£49.99",
+  },
+  {
+    img: "js/assets-caroselli/sunflowers-product.png",
+    title: "Sunflowers",
+    prezzo: "£29.99",
+  },
+  {
     img: "js/assets-caroselli/Dune.png",
     title: "Dune Atreides Royal Ornithopter",
     prezzo: "£149.99",
   },
   {
-    img: "js/assets-caroselli/Stitch.png",
+    img: "js/assets-caroselli/cherry-blossoms-product.png",
+    title: "Cherry Blossoms",
+    prezzo: "£29.99",
+  },
+  {
+    img: "js/assets-caroselli/40677.png",
+    title: "Prisoner of Azkaban",
+    prezzo: "£149.99",
+  },
+  {
+    img: "js/assets-caroselli/main3_2.png",
+    title: "R2-D2",
+    prezzo: "£79.99",
+  },
+  {
+    img: "js/assets-caroselli/lotus-flowers-product.png",
+    title: "Lotus Flowers",
+    prezzo: "£29.99",
+  },
+  {
+    img: "js/assets-caroselli/75376.png",
     title: "Dune Atreides Royal Ornithopter",
     prezzo: "£149.99",
   },
   {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
-  },
-  {
-    img: "/assets/images/M_Section3/21347.png",
-    title: "Dune Atreides Royal Ornithopter",
-    prezzo: "£149.99",
+    img: "js/assets-caroselli/76269.png",
+    title: "Stark Tower",
+    prezzo: "£249.99",
   },
 ];
 
@@ -275,7 +275,7 @@ function carouselStructure(array, classContainer) {
 }
 
 carouselStructure(carosello1, ".wrapper-sec3");
-carouselStructure(carosello2, ".wrapper-sec5");
+carouselStructure(carosello3, ".wrapper-sec5");
 function carouselStructureSec2(array, classContainer) {
   array.forEach((card) => {
     const container = document.querySelector(classContainer);
@@ -361,7 +361,7 @@ function carouselStructureSec7(array, classContainer) {
   });
 }
 
-carouselStructureSec7(carosello3, ".wrapper-sec7");
+carouselStructureSec7(carosello1, ".wrapper-sec7");
 
 // SCRIPT PER FAR SPARIRE LA NAVBAR IN MODALITà MOBILE AL CLICK DEL X-BUTTON
 document
