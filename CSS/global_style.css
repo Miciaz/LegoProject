@@ -497,13 +497,10 @@
 }
 
 /*CAROSELLO SECTION 3 E 5*/
-
-.section-3 {
-  height: 70%;
-  width: auto;
+.m_section3, .m_section5 {
   display: flex;
-  align-items: center;
   justify-content: center;
+  width: 100%;
   background: #F3EBFF;
 }
 
@@ -512,96 +509,44 @@ a {
   color: inherit;
 }
 
-.carousel-section-wrapper {
-  height: 700px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+li {
+  list-style: none;
 }
 
-.carousel-container-wrapper{
-  width: 100%;
-}
-
-.carousel {
-  position: relative;
+.section3-carousel {
+  height: 630px;
   overflow: hidden;
-  width: 100%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 20px 1fr 20px;
+  padding: 2.5rem 1.25rem;
 }
 
-.card-slider-container {
-  display: flex;
-  width: 95%;
-  align-content: center;
-  justify-content: center;
+.hs {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(12, calc(22.8% + 0.546875rem));
+  grid-template-rows: minmax(150px, 1fr);
 }
 
-.carousel-card { 
-  position: relative;
-  background: #fff;
-  height: 497px;
-  width: 290px;
-  display: none;
-  margin-right: 40px;
+.hs > li:last-child {
+  margin-right: 20px;
 }
 
-/*stile button scorrimento*/
-.carousel-button {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  user-select: none;
-  z-index: 1;
-
-  padding: 0;
-  border-radius: 50%;
-  background-color: transparent;
-  border: none;
-  transition: color 0.1s;/*rende la transizione più smooth applicandole un delay*/
-
-  width: 50px;
-  height: 50px;
-
-  background-color: rgb(224, 224, 224);
-  /*border: 2px solid rgb(224, 224, 224); /* Colore del bordo */
-  border-radius: 50%;
-
-  margin: 5px;
+.app > * {
+  grid-column: 1 / -2;
 }
 
-.fa-solid {
-  font-size: 24px;
+.app > .full {
+  grid-column: 1 / -1;
 }
 
-
-.carousel-button:hover {
-  background-color: transparent; /*colore che appare quando passi sopra con il mouse*/
-  border: 2px solid rgb(224, 224, 224);
-}
-
-.carousel-button-previous {
-  left: 0;
-}
-
-.carousel-button-next{
-  right: 0;
-}
-
-/*stile topbar carosello*/
-.carousel-topbar {
-  margin-left: 2.5em;
-  padding-bottom: 1em;
+.carousel-card {
   position: relative;
 }
 
-.carousel-title {
-  font-size: 2rem;
-  font-weight: 400;
+.carousel-wrapper {
+  width: auto;
+  height: 510px;
 }
 
 /*wishlist*/
@@ -652,7 +597,7 @@ a {
 }
 
 .img-carousel-section3:hover {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 /*style leaf carousel*/
@@ -677,8 +622,8 @@ a {
   padding-top: 25px;
 }
 
-.price-product-carousel p{
-  font-size: 1.20rem;
+.price-product-carousel p {
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
@@ -697,7 +642,7 @@ a {
 }
 
 .button-addtoBag {
-  background-color: #F8CF31;
+  background-color: #f8cf31;
   font-size: 1rem;
   font-weight: 500;
   height: 50px;
@@ -707,36 +652,47 @@ a {
   border: none;
 }
 
-.button-addtoBag:hover{
-  background-color: #2E0F54;
+.button-addtoBag:hover {
+  background-color: #2e0f54;
   cursor: pointer;
-  border:1px solid #F8CF31;
-  color: #F3EBFF;
+  border: 1px solid #f8cf31;
+  color: #f3ebff;
 }
 
 .product-leaf-carousel {
-  background-color: #2E0F54;
+  background-color: #2e0f54;
   height: 210px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   color: white;
-  padding: 12px 10px 10px 10px ;
+  padding: 12px 10px 10px 10px;
 }
 
-/* @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3){
-  .product-image-carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 18rem;
-    width: 290px;
-    background-color: white;
-  }
-} */
+/*topbar carosello*/
+.carousel-topbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
 
-/*scrollbar carosello*/
+.carousel-title {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/* Hide the default scrollbar */
+.carousel-wrapper {
+  overflow-x: auto;
+  scrollbar-width: thin; 
+  scrollbar-color: #888 transparent; 
+}
+
+.carousel-wrapper::-webkit-scrollbar-track-piece:end {
+  margin-right: 20px;
+}
 
 /*STILE SECTION4*/
 #section4-container {
@@ -895,6 +851,12 @@ a {
 }
 
 /*SECTION 7 CAROSELLO*/
+.ctn-sec7-carousel {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #2E0F54;
+}
 
 #section7-carousel {
   background-color: #2E0F54;

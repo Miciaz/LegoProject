@@ -891,5 +891,9 @@
   flex-wrap: wrap;
 }
 
+/*caroselli*/
+.hs {
+    grid-template-columns: repeat(12, 75%);
+  }
 
 }
