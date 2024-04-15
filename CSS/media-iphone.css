@@ -911,4 +911,41 @@
   grid-template-columns: repeat(12, 75%);
   gap: 15px;
 }
+}@media screen and (min-width: 320px) and (max-width: 768px) {
+  .container-footer1 p {
+    margin: 15px;
+    font-size: 12px;
+    line-height: 1.5;
+    position: relative;
+    max-height: calc(1.5em * 3); 
+    overflow: hidden;
+    padding-right: 60px; 
+  }
+
+  .container-footer1 p::before {
+    
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .container-footer1 p::after {
+    content: "Read more";
+    color: #005ad2;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    white-space: nowrap;
+  }
+
+  .container-footer1 a[href*="gaming"]::after {
+    content: none;
+  }
+
+  .container-footer1 {
+    margin: 0 30px;
+    margin-bottom: 50px;
+  }
 }
