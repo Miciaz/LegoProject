@@ -38,6 +38,10 @@
     height: auto; /* per non distorcerle */
   }
 
+  .testoslider-main1 {
+    left: 3rem;
+  }
+  
   /* STYLE FOOTER1 MEDIA IPAD */
   .container-footer1 p {
     margin: 15px;
