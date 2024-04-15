@@ -894,6 +894,6 @@
 /*caroselli*/
 .hs {
     grid-template-columns: repeat(12, 75%);
+    gap: 15px;
   }
-
 }
