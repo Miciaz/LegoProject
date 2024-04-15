@@ -673,9 +673,9 @@ li {
 /*topbar carosello*/
 .carousel-topbar {
   width: 100%;
-  height: 50px;
   display: flex;
   justify-content: flex-start;
+  padding-bottom: 10px;
 }
 
 .carousel-title {

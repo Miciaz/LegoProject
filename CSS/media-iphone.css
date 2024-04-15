@@ -895,15 +895,15 @@
 .container-footer3{
   flex-wrap: wrap;
 }
+  /* --------------- */
 
+  .carousel-title{
+    font-size: 1.25rem;
+    font-weight: 400;
+  }
 }
 
-/* --------------- */
 
-.carousel-title{
-  font-size: 1.25rem;
-  font-weight: 400;
-}
 
 @media screen and (max-width: 600px) {
   /*caroselli*/
