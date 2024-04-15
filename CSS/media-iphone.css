@@ -893,6 +893,13 @@
 
 }
 
+/* --------------- */
+
+.carousel-title{
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
 @media screen and (max-width: 600px) {
   /*caroselli*/
 .hs {
