@@ -92,9 +92,14 @@
   }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) (max-width: 1200px){
   /*gestione caroselli*/
   .hs {
     grid-template-columns: repeat(12, 40%);
+  }
+
+  .carousel-title {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
