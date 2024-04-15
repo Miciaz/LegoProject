@@ -469,7 +469,6 @@
   flex-shrink: 0;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   height: auto;
   width: 90%;
   overflow: scroll;
@@ -507,7 +506,8 @@
 
 .container-s2-mobile {
   display: flex;
-  justify-content: center;
+  gap: 6rem;
+  margin-left: 1rem;
 }
 
 .container-card-mobile {
@@ -518,6 +518,12 @@
   height: auto;
 }
 
+.cards2{
+  padding-left: 10rem;
+  margin-left: -17rem;
+  height: auto;
+  width: 500px;
+}
 /* .card{
   display: flex;
     flex-direction: column;
