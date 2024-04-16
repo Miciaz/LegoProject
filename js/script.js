@@ -371,6 +371,22 @@ document
     navbar.style.display = "none";
   });
 
+// SCRIPT PER LA SEARCHBOX //
+const searchBtn = document.querySelectorAll(".search-logo");
+searchBtn.forEach((searchBtn) => {
+  searchBtn.addEventListener("click", () => {
+    searchBtn.classList.toggle("show");
+    searchInput = document.querySelector("#searchbar");
+    searchInput.setAttribute("type", "text");
+    searchInput.setAttribute("placeholder", "Cerca...");
+
+    searchInput.classList.toggle("active");
+
+    const searchContainer = searchBtn.parentElement;
+    searchContainer.appendChild(searchInput);
+  });
+});
+
 // SCRIPT PER FAR SI CHE AL CLICK DELL'HAMBUERGER MENU SI APRA UN OVERLAY CON I LINK CHE DESIDERIAMO
 document.addEventListener("DOMContentLoaded", function () {
   const overlay = document.getElementById("overlay");
