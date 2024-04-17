@@ -373,8 +373,10 @@ document
 
 // SCRIPT PER LA SEARCHBOX //
 const searchBtn = document.querySelectorAll(".search-logo");
+const quitBtn = document.querySelector(".svg-quit");
 searchBtn.forEach((searchBtn) => {
   searchBtn.addEventListener("click", () => {
+    quitBtn.classList.toggle("active");
     searchBtn.classList.toggle("show");
     searchInput = document.querySelector("#searchbar");
     searchInput.setAttribute("type", "text");
@@ -384,6 +386,7 @@ searchBtn.forEach((searchBtn) => {
 
     const searchContainer = searchBtn.parentElement;
     searchContainer.appendChild(searchInput);
+    const menuSearch = document.querySelectorAll(".menu-search");
   });
 });
 
@@ -430,13 +433,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
   shopButton.addEventListener("click", function () {
     overlay.style.display = "block";
-    sidebar.classList.remove("sidebar-hidden")
-    sidebar.classList.add("sidebar-shop-ctn")
+    sidebar.classList.remove("sidebar-hidden");
+    sidebar.classList.add("sidebar-shop-ctn");
   });
 
   xButton.addEventListener("click", function () {
     overlay.style.display = "none";
-    sidebar.classList.remove("sidebar-shop-ctn")
-    sidebar.classList.add("sidebar-hidden")
+    sidebar.classList.remove("sidebar-shop-ctn");
+    sidebar.classList.add("sidebar-hidden");
   });
 });

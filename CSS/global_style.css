@@ -223,6 +223,8 @@
 }
 .menu-search {
   display: flex;
+  background-color: white;
+  border-radius: 20px;
 }
 
 .menu-search-shop {
@@ -247,9 +249,15 @@
 }
 .search-logo.show {
   display: flex;
-  align-items: flex-end;
 }
-
+.svg-quit {
+  display: none;
+}
+.svg-quit.active {
+  display: inline-block;
+  margin-left: -50px;
+  z-index: 1000;
+}
 #searchbar {
   display: none;
 }
@@ -262,7 +270,9 @@
   align-items: center;
   position: relative;
   background-color: rgb(255, 255, 255);
-  border-radius: 1.25rem;
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 /* Overlay */
 .overlay-search {
