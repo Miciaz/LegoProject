@@ -1,5 +1,5 @@
 /* MEDIA QUERY IPAD PRO */
-@media only screen and (min-device-width: 901px) and (max-device-width: 1200px) {
+@media only screen and (min-device-width: 821px) and (max-device-width: 1200px) {
   /* STYLE NAVBAR MEDIA IPAD */
   .sign-in-link-style > span {
     border: 0px;
@@ -27,7 +27,7 @@
     font-size: 1em;
     display: flex;
     align-items: center;
-    margin-right: 15rem;
+    gap: 40px;
   }
 
   /* STYLE SECTION1 MEDIA IPAD */
@@ -93,6 +93,10 @@
 @media screen and (min-width: 1201px) {
   .crl-wrapper-media {
     max-width: 82.5rem;
+  }
+
+  .sidebar-list-ctn {
+    width: 37.8125rem;
   }
 }
 
