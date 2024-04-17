@@ -449,7 +449,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //SCRIPT PER LA GESTIONE DEL CAROSELLO MAR10DAY
-//SCRIPT MAR10DAY
 document.addEventListener("DOMContentLoaded", function () {
   const prevBtn = document.querySelector(".custom-prev-btn");
   const nextBtn = document.querySelector(".custom-next-btn");

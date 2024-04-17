@@ -258,6 +258,7 @@
   display: inline-block;
   margin-left: -50px;
   z-index: 1000;
+  cursor: pointer;
 }
 #searchbar {
   display: none;
