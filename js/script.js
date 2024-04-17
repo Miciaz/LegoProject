@@ -387,6 +387,10 @@ searchBtn.forEach((searchBtn) => {
     const searchContainer = searchBtn.parentElement;
     searchContainer.appendChild(searchInput);
     const menuSearch = document.querySelectorAll(".menu-search");
+
+    //Vediamo se funziona zio lillo...
+    const overlaySearch = document.querySelector(".overlay-search");
+    overlaySearch.classList.toggle("show");
   });
 });
 

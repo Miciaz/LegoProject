@@ -225,6 +225,7 @@
   display: flex;
   background-color: white;
   border-radius: 20px;
+  z-index:4; /*Piccola modifica per farlo stare su*/
 }
 
 .menu-search-shop {
@@ -276,19 +277,21 @@
 }
 /* Overlay */
 .overlay-search {
+  display: none;
+}
+.overlay-search.show {
+  display: block;
   position: fixed;
   top: 0;
-  left: -100%;
+  left: 0;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 1000;
+  z-index: 3;
   transition: left 0.1s ease-out;
 }
 
-.overlay-search.active {
-  left: 0;
-}
+
 
 .heart-logo {
   color: black;
