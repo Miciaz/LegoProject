@@ -1570,3 +1570,51 @@ li {
   white-space: nowrap;
   width: 1px;
 }
+
+
+/*MAR10DAY CAROUSEL*/
+.custom-carousel {
+  position: relative;
+  right: -60px;
+  overflow: hidden;
+}
+
+.custom-carousel-content {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.custom-carousel-item {
+  flex: 0 0 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  gap: 10px;
+}
+
+.custom-carousel-item a{
+  color: #005ad2;
+}
+
+.custom-prev-btn,
+.custom-next-btn {
+  position: absolute;
+  top: 53%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-prev-btn {
+  left: 70px;
+}
+
+.custom-next-btn {
+  right: 70px;
+}

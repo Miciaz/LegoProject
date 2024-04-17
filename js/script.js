@@ -447,3 +447,30 @@ document.addEventListener("DOMContentLoaded", function () {
     sidebar.classList.add("sidebar-hidden");
   });
 });
+
+//SCRIPT PER LA GESTIONE DEL CAROSELLO MAR10DAY
+//SCRIPT MAR10DAY
+document.addEventListener("DOMContentLoaded", function () {
+  const prevBtn = document.querySelector(".custom-prev-btn");
+  const nextBtn = document.querySelector(".custom-next-btn");
+  const carouselContent = document.querySelector(".custom-carousel-content");
+  const carouselItems = document.querySelectorAll(".custom-carousel-item");
+  const itemCount = carouselItems.length;
+  let currentIndex = 0;
+
+  function showItem(index) {
+    const itemWidth = carouselItems[0].offsetWidth;
+    const transformValue = `translateX(-${index * itemWidth}px)`;
+    carouselContent.style.transform = transformValue;
+  }
+
+  prevBtn.addEventListener("click", function () {
+    currentIndex = (currentIndex - 1 + itemCount) % itemCount;
+    showItem(currentIndex);
+  });
+
+  nextBtn.addEventListener("click", function () {
+    currentIndex = (currentIndex + 1) % itemCount;
+    showItem(currentIndex);
+  });
+});
