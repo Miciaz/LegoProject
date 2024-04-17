@@ -1347,7 +1347,82 @@
       </section>
     </section>
   </section>
+  <div id="cookie-overlay" class="cookie-overlay">
+    <div class="cookie-popup">
+      <div class="title-popup">
+        <h2>
+          Preferenze per la privacy: i cookie sono nostri. Il controllo è
+          dell'utente.
+        </h2>
+      </div>
+      <div class="p1">
+        <p>
+          LEGO System A/S (e le terze parti elencate di seguito) impostano e
+          utilizzano cookie e tecnologie simili (“cookie”) su questo sito web
+          per offrire un’esperienza migliore e più user-friendly, per scopi
+          statistici e analitici e per fornire un marketing mirato e
+          pertinente. Ulteriori informazioni sulle categorie di cookie sono
+          riportate di seguito; utilizzare i pulsanti per decidere quali
+          categorie si desidera attivare.
+        </p>
+      </div>
+      <div class="p2">
+        <p>
+          Facendo clic su "Solo necessari", verranno impostati solo i cookie
+          necessari per consentire il funzionamento del sito Web. Questi
+          cookie non possono essere disabilitati. Selezionando "Accetta tutti"
+          si impostano tutti i cookie. Questo ci consente di ottimizzare
+          l'esperienza dell'utente e di pubblicizzare i nostri prodotti e
+          servizi. In alternativa, è possibile selezionarne solo alcuni. È
+          sufficiente fare clic su "Impostazioni dei cookie" e usare i
+          pulsanti di attivazione/disattivazione per scegliere le categorie
+          preferite.
+        </p>
+      </div>
+      <div class="p3">
+        <p>
+          Ricordare che è sempre possibile revocare il proprio consenso o
+          modificare le impostazioni semplicemente premendo il tasto
+          “Impostazioni dei cookie” sul nostro sito. Per ulteriori
+          informazioni, vedere anche la nostra
+          <a href="#">Informativa sui cookie</a> e la nostra Informativa sulla
+          privacy Informativa sui cookie e
+          <a href="">Informativa sulla privacy.</a>
+        </p>
+      </div>
+      <div class="p4">
+        <p>
+          Si noti che in questo sito rispettiamo il Global Privacy Control
+          (GPC) per i cookie e quando viene rilevata l'impostazione GPC
+          escludiamo automaticamente tutti i cookie, eccetto i cookie
+          “Strettamente necessari”. Per ulteriori informazioni, visitare
+          globalprivacycontrol.org.
+        </p>
+      </div>
+      <div class="buttons-cookie">
+        <button class="necessary-cookie-btn">Only necessary</button>
+        <button class="accept-cookie-btn">Accept</button>
+      </div>
 
+      <div class="impostazioni-cookie">
+        <a href="">Impostazioni dei cookie</a>
+      </div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const cookieOverlay = document.querySelector(".cookie-overlay");
+      const acceptBtn = document.querySelector(".accept-cookie-btn");
+      const necessaryBtn = document.querySelector(".necessary-cookie-btn");
+
+      acceptBtn.addEventListener("click", () => {
+        cookieOverlay.style.display = "none";
+      });
+      necessaryBtn.addEventListener("click", () => {
+        cookieOverlay.style.display = "none";
+      });
+    });
+  </script>
   <script src="js/script.js"></script>
 </body>
 

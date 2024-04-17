@@ -406,3 +406,17 @@ document.addEventListener("DOMContentLoaded", function () {
     overlay.classList.remove("active");
   });
 });
+
+// OVERLAY-COOKIE
+document.addEventListener("DOMContentLoaded", () => {
+  const cookieOverlay = document.querySelector(".cookie-overlay");
+  const acceptBtn = document.querySelector(".accept-cookie-btn");
+  const necessaryBtn = document.querySelector(".necessary-cookie-btn");
+
+  acceptBtn.addEventListener("click", () => {
+    cookieOverlay.style.display = "none";
+  });
+  necessaryBtn.addEventListener("click", () => {
+    cookieOverlay.style.display = "none";
+  });
+});
