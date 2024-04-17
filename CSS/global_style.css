@@ -1404,6 +1404,7 @@ li {
   justify-content: center;
   gap: 20px;
   padding-top: 25px;
+  
 }
 
 .accept-cookie-btn {
@@ -1415,6 +1416,8 @@ li {
   border-radius: 5px;
   height: 50px;
   width: 260px;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .necessary-cookie-btn{
@@ -1426,6 +1429,8 @@ li {
   border-radius: 5px;
   height: 50px;
   width: 260px;
+  font-size: 0.875rem;
+  font-weight: 500;
 }
 
 .accept-cookie-btn:hover {
