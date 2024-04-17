@@ -1373,8 +1373,8 @@ li {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-  height: 650px;
-  width: 550px;
+  height: auto;
+  width: 37.5rem;
 }
 
 .title-popup {
@@ -1403,6 +1403,7 @@ li {
   display: flex;
   justify-content: center;
   gap: 20px;
+  padding-top: 30px;
 }
 
 .accept-cookie-btn {
@@ -1465,4 +1466,10 @@ li {
 .impostazioni-cookie a {
   text-decoration: none;
   color: #005ad2;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.impostazioni-cookie a:hover{
+  text-decoration: underline;
 }

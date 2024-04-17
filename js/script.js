@@ -407,7 +407,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// OVERLAY-COOKIE
+// SCRIPT PER GESTIRE L'OVERLAY-COOKIE
 document.addEventListener("DOMContentLoaded", () => {
   const cookieOverlay = document.querySelector(".cookie-overlay");
   const acceptBtn = document.querySelector(".accept-cookie-btn");
