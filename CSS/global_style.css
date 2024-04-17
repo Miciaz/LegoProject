@@ -1369,7 +1369,7 @@ li {
 }
 
 .cookie-popup {
-  background-color: #f0f0f0;
+  background-color: white;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
@@ -1384,7 +1384,7 @@ li {
 }
 
 .cookie-popup p {
-  margin: 0;
+  margin: 3px 0px;
   font-size: 0.75rem;
 }
 .cookie-popup h2 {
@@ -1403,7 +1403,7 @@ li {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-top: 30px;
+  padding-top: 25px;
 }
 
 .accept-cookie-btn {
