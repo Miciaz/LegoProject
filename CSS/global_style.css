@@ -292,6 +292,11 @@
   transition: left 0.1s ease-out;
 }
 
+input[type="text"]:focus {
+  outline: none; /* Rimuove il bordo di focus */
+  /* Aggiungi qui eventuali altri stili desiderati */
+}
+
 
 
 .heart-logo {
