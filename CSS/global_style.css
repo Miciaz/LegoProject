@@ -223,9 +223,6 @@
 }
 .menu-search {
   display: flex;
-  background-color: white;
-  border-radius: 20px;
-  z-index:4; /*Piccola modifica per farlo stare su*/
 }
 
 .menu-search-shop {
@@ -250,15 +247,9 @@
 }
 .search-logo.show {
   display: flex;
+  align-items: flex-end;
 }
-.svg-quit {
-  display: none;
-}
-.svg-quit.active {
-  display: inline-block;
-  margin-left: -50px;
-  z-index: 1000;
-}
+
 #searchbar {
   display: none;
 }
@@ -271,27 +262,23 @@
   align-items: center;
   position: relative;
   background-color: rgb(255, 255, 255);
-  border: none;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 1.25rem;
 }
 /* Overlay */
 .overlay-search {
-  display: none;
-}
-.overlay-search.show {
-  display: block;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -100%;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 3;
+  z-index: 1000;
   transition: left 0.1s ease-out;
 }
 
-
+.overlay-search.active {
+  left: 0;
+}
 
 .heart-logo {
   color: black;
@@ -596,6 +583,7 @@ li {
 
 .carousel-card {
   position: relative;
+  z-index: 0;
 }
 
 .carousel-wrapper {
