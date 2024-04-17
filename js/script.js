@@ -420,3 +420,23 @@ document.addEventListener("DOMContentLoaded", () => {
     cookieOverlay.style.display = "none";
   });
 });
+
+//SCRIPT PER LA SIDEBAR SHOP
+document.addEventListener("DOMContentLoaded", function () {
+  const overlay = document.querySelector(".overlay-sidebar");
+  const shopButton = document.querySelector(".btn-overlay");
+  const xButton = document.querySelector(".x-button-sidebar");
+  const sidebar = document.querySelector(".sidebar-shop");
+
+  shopButton.addEventListener("click", function () {
+    overlay.style.display = "block";
+    sidebar.classList.remove("sidebar-hidden")
+    sidebar.classList.add("sidebar-shop-ctn")
+  });
+
+  xButton.addEventListener("click", function () {
+    overlay.style.display = "none";
+    sidebar.classList.remove("sidebar-shop-ctn")
+    sidebar.classList.add("sidebar-hidden")
+  });
+});
