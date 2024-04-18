@@ -994,4 +994,15 @@
   .container-footer3 {
     margin-top: 22px; 
   }
+
+  #searchbar.active {
+   padding: 0px;
+  display: flex;
+  -moz-box-align: center;
+  align-items: center;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1.25rem;
+  }
 }
+
