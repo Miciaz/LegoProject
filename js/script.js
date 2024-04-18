@@ -374,6 +374,7 @@ document
 // SCRIPT PER LA SEARCHBOX //
 const searchBtn = document.querySelectorAll(".search-logo");
 const quitBtn = document.querySelector(".svg-quit");
+
 searchBtn.forEach((searchBtn) => {
   searchBtn.addEventListener("click", () => {
     quitBtn.classList.toggle("active");
