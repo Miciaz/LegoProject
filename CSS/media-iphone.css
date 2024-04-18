@@ -988,10 +988,10 @@
     text-decoration: underline;
   }
   svg-social-f2 {
-    margin-bottom: 22px; /* Aggiungi spazio sotto al primo insieme di elementi */
+    margin-bottom: 22px;
   }
   
   .container-footer3 {
-    margin-top: 22px; /* Aggiungi spazio sopra al secondo insieme di elementi */
+    margin-top: 22px; 
   }
 }
