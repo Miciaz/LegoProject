@@ -380,7 +380,7 @@ searchBtn.forEach((searchBtn) => {
     searchBtn.classList.toggle("show");
     searchInput = document.querySelector("#searchbar");
     searchInput.setAttribute("type", "text");
-    searchInput.setAttribute("placeholder", "Cerca...");
+    searchInput.setAttribute("placeholder", "Search...");
 
     searchInput.classList.toggle("active");
 
