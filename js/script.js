@@ -463,23 +463,31 @@ document.addEventListener("DOMContentLoaded", function () {
     overlay.style.display = "block";
     sidebar.classList.remove("sidebar-hidden");
     sidebar.classList.add("sidebar-shop-ctn");
+    let contenitoreGenerale = document.querySelector(".contenitore-generale");
+    let larghezzaContenitoreGenerale =
+      contenitoreGenerale.clientWidth /
+      parseFloat(getComputedStyle(document.documentElement).fontSize); //
 
+    if (larghezzaContenitoreGenerale > 100) {
+      // 100rem convertiti in pixel
+      let paddingExtra = (larghezzaContenitoreGenerale - 100) / 2;
+      document.querySelector(".sidebar-shop-ctn").style.paddingLeft =
+        paddingExtra + 7.4 + "rem"; // Impostazione del padding extra sulla sidebar
+    }
+    /*SCRIPT PER LA SIDEBAR SHOP: ADATTA LA FINESTRA*/
     window.addEventListener("resize", function () {
-      const contenitoreGenerale = document.querySelector(
-        ".contenitore-generale"
-      );
-      const larghezzaContenitoreGenerale =
+      let contenitoreGenerale = document.querySelector(".contenitore-generale");
+      let larghezzaContenitoreGenerale =
         contenitoreGenerale.clientWidth /
         parseFloat(getComputedStyle(document.documentElement).fontSize); //
 
       if (larghezzaContenitoreGenerale > 100) {
-        // 100rem convertiti in pixel
         const paddingExtra = (larghezzaContenitoreGenerale - 100) / 2;
         document.querySelector(".sidebar-shop-ctn").style.paddingLeft =
-          paddingExtra + 7.4 + "rem"; // Impostazione del padding extra sulla sidebar
+          paddingExtra + 7.4 + "rem";
       } else {
         document.querySelector(".sidebar-shop-ctn").style.paddingLeft =
-          "9.375rem"; // Ripristino del padding predefinito se la larghezza non supera i 100rem
+          "9.375rem";
       }
     });
   });

@@ -1510,13 +1510,27 @@ li {
   background-color: inherit;
   font-size: inherit;
   font-weight: inherit;
+  cursor: pointer;
+}
+
+.sidebar-shop {
+  position: absolute;
+  top: 445px;
+  left: 0px;
+  height: 100vh;
+  z-index: 2;
+  background: rgb(255, 255, 255);
+  padding-top: 8.4375rem;
+  padding-bottom: 2.5rem;
+  padding-left: 9.375rem;
+  transition: 500ms ease 0s;
 }
 
 .sidebar-shop-ctn {
   position: absolute;
   top: 0px;
   left: 0px;
-  height: 100vh;
+  height: 200vh;
   z-index: 2;
   background: rgb(255, 255, 255);
   padding-top: 8.4375rem;
@@ -1526,7 +1540,7 @@ li {
 
 .sidebar-list-ctn {
   display: flex;
-  transition: width 500ms ease 0s;
+  transition: 500ms ease 0s;
   height: 100%;
   max-height: 41.875rem;
   overflow: hidden;
@@ -1559,6 +1573,7 @@ li {
   position: absolute;
   top: 2.1875rem;
   right: 3.125rem;
+  cursor: pointer;
 }
 
 .sidebar-hidden {
