@@ -913,6 +913,26 @@
     font-size: 1.25rem;
     font-weight: 400;
   }
+.svg-quit-m {
+  display: none;
+}
+.svg-quit-m.active {
+  display: inline-block;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+#searchbar.active {
+  padding: 0px;
+ display: flex;
+ -moz-box-align: center;
+ align-items: center;
+ position: relative;
+ background-color: rgb(255, 255, 255);
+ border-radius: 1.25rem;
+ width: 140px;
+ }
+
 }
 
 
@@ -995,14 +1015,5 @@
     margin-top: 22px; 
   }
 
-  #searchbar.active {
-   padding: 0px;
-  display: flex;
-  -moz-box-align: center;
-  align-items: center;
-  position: relative;
-  background-color: rgb(255, 255, 255);
-  border-radius: 1.25rem;
-  }
 }
 

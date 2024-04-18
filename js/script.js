@@ -374,10 +374,12 @@ document
 // SCRIPT PER LA SEARCHBOX //
 const searchBtn = document.querySelectorAll(".search-logo");
 const quitBtn = document.querySelector(".svg-quit");
+const quitBtnM = document.querySelector(".svg-quit-m");
 
 searchBtn.forEach((searchBtn) => {
   searchBtn.addEventListener("click", () => {
     quitBtn.classList.toggle("active");
+    quitBtnM.classList.toggle("active");
     searchBtn.classList.toggle("show");
     searchInput = document.querySelector("#searchbar");
     searchInput.setAttribute("type", "text");
@@ -396,6 +398,17 @@ searchBtn.forEach((searchBtn) => {
 
     svgQuitActive.addEventListener("click", () => {
       quitBtn.classList.remove("active");
+      searchBtn.classList.remove("show");
+      overlaySearch.classList.remove("show");
+      searchInput.removeAttribute("type", "text");
+      searchInput.removeAttribute("placeholder", "Search...");
+      searchInput.classList.remove("active");
+    });
+
+    const svgQuitMActive = document.querySelector(".svg-quit-m");
+
+    svgQuitMActive.addEventListener("click", () => {
+      quitBtnM.classList.remove("active");
       searchBtn.classList.remove("show");
       overlaySearch.classList.remove("show");
       searchInput.removeAttribute("type", "text");
