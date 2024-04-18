@@ -392,6 +392,16 @@ searchBtn.forEach((searchBtn) => {
     //Vediamo se funziona zio lillo...
     const overlaySearch = document.querySelector(".overlay-search");
     overlaySearch.classList.toggle("show");
+    const svgQuitActive = document.querySelector(".svg-quit");
+
+    svgQuitActive.addEventListener("click", () => {
+      quitBtn.classList.remove("active");
+      searchBtn.classList.remove("show");
+      overlaySearch.classList.remove("show");
+      searchInput.removeAttribute("type", "text");
+      searchInput.removeAttribute("placeholder", "Search...");
+      searchInput.classList.remove("active");
+    });
   });
 });
 
