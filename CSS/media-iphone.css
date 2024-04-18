@@ -961,3 +961,37 @@
     margin-bottom: 50px;
   }
 }
+@media screen and (max-width: 768px) {
+  .testo {
+    display: none;
+  }
+  .element {
+    flex-basis: calc(33.33% - 20px); 
+    margin-right: 5px;
+    margin-bottom: 20px; 
+    
+  }
+  
+  
+  .element:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  
+  .link-f3 {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+
+  .link-f3:hover {
+    text-decoration: underline;
+  }
+  svg-social-f2 {
+    margin-bottom: 22px; /* Aggiungi spazio sotto al primo insieme di elementi */
+  }
+  
+  .container-footer3 {
+    margin-top: 22px; /* Aggiungi spazio sopra al secondo insieme di elementi */
+  }
+}
