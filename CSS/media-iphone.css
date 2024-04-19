@@ -989,15 +989,48 @@
   width: 100%;
 }
 
-#upArrow {
+.upArrow1 {
   transform: rotate(270deg);
   transition: 0.5s ease;
 }
 
-#upArrow.active {
+.upArrow1.active {
   transform: rotate(450deg);
   transition: 0.5s ease;
 }
+
+.upArrow2 {
+  transform: rotate(270deg);
+  transition: 0.5s ease;
+}
+
+.upArrow2.active {
+  transform: rotate(450deg);
+  transition: 0.5s ease;
+}
+
+
+.upArrow3 {
+  transform: rotate(270deg);
+  transition: 0.5s ease;
+}
+
+.upArrow3.active {
+  transform: rotate(450deg);
+  transition: 0.5s ease;
+}
+
+
+.upArrow4 {
+  transform: rotate(270deg);
+  transition: 0.5s ease;
+}
+
+.upArrow4.active {
+  transform: rotate(450deg);
+  transition: 0.5s ease;
+}
+
 /* .about-us{
   border-top: 1px solid;
   border-bottom: 1px solid
