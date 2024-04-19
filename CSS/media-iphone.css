@@ -736,7 +736,7 @@
 
 .panel {
   display: none;
-  padding: 0 18px;
+  /* padding: 0 18px; */
   margin: -16px;
   background-color: transparent;
   color: white;
@@ -785,10 +785,11 @@
 .box1-logo {
   display: flex;
   align-items: self-start;
-  /* gap: 90px; */
+  flex-direction: row;
+  gap: 10px;
   height: auto;
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .logo-footer2 {
@@ -890,6 +891,16 @@
 .subscribe-footer2-2 h3{
   font-size: 1rem;
   padding-bottom: 10px;
+}
+
+.panel li{
+  border-bottom: 1px solid;
+  padding: 0.9375rem 1.25rem;
+}
+
+.panel > li{
+  border-top: 1px solid;
+  border-bottom: none;
 }
 
 .email-footer2 {
