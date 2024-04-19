@@ -850,6 +850,12 @@
 }
 
 .box2-ul h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: -14px;
   font-size: 1rem;
   font-weight: 700;
   margin-left: -14px;
@@ -982,6 +988,16 @@
   display: block;
   width: 100%;
 }
+
+#upArrow {
+  transform: rotate(270deg);
+  transition: 0.5s ease;
+}
+
+#upArrow.active {
+  transform: rotate(450deg);
+  transition: 0.5s ease;
+}
 /* .about-us{
   border-top: 1px solid;
   border-bottom: 1px solid
@@ -1031,6 +1047,7 @@
  width: 140px;
  }
 
+ 
 
 
 }

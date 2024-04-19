@@ -528,14 +528,17 @@ document.addEventListener("DOMContentLoaded", function () {
 //FOOTER 2 ACCORDION
 const accordions = document.getElementsByClassName("accordion");
 const box2Ul = document.querySelector(".box2-ul");
+const arrowBtn = document.getElementById("upArrow");
 
 for (let i = 0; i < accordions.length; i++) {
   const accordion = accordions[i];
 
   accordion.addEventListener("click", function (event) {
-    // Ottieni l'elemento su cui è stato fatto clic utilizzando event.currentTarget
+    // Otteniamo l'elemento su cui è stato fatto clic utilizzando event.currentTarget
     const clickedAccordion = event.currentTarget;
     clickedAccordion.classList.toggle("active");
+
+    arrowBtn.classList.toggle("active");
 
     const panel = clickedAccordion.nextElementSibling;
 
