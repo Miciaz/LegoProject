@@ -1270,6 +1270,17 @@ li {
   margin: 15px;
 }
 
+.subscribe-footer2-2 {
+  display: none;
+}
+
+.panel {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .email-footer2 {
   display: flex;
 }
@@ -1360,6 +1371,10 @@ li {
 .width-adjuster {
   max-width: 100rem;
   margin: 0 auto;
+}
+
+.hr-accordion{
+  display: none;
 }
 
 #footer-background {
