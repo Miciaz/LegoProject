@@ -1082,9 +1082,6 @@
   }
 }
 @media screen and (max-width: 768px) {
-  .testo {
-    /* display: none; */
-  }
   .element {
     flex-basis: calc(33.33% - 20px); 
     margin-right: 5px;
