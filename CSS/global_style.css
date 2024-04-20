@@ -746,6 +746,7 @@ li {
 /* Hide the default scrollbar */
 .carousel-wrapper {
   overflow-x: auto;
+  overflow-y: hidden;
   scrollbar-width: thin;
   scrollbar-color: #888 transparent;
 }
