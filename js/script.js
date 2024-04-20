@@ -375,9 +375,11 @@ document
 const searchBtn = document.querySelectorAll(".search-logo");
 const quitBtn = document.querySelector(".svg-quit");
 const quitBtnM = document.querySelector(".svg-quit-m");
+const conflictMain1 = document.querySelector(".contenitore-main1");
 
 searchBtn.forEach((searchBtn) => {
   searchBtn.addEventListener("click", () => {
+    conflictMain1.classList.add("hiddenIndex");
     quitBtn.classList.toggle("active");
     quitBtnM.classList.toggle("active");
     searchBtn.classList.toggle("show");
@@ -397,6 +399,7 @@ searchBtn.forEach((searchBtn) => {
     const svgQuitActive = document.querySelector(".svg-quit");
 
     svgQuitActive.addEventListener("click", () => {
+      conflictMain1.classList.add("hiddenIndex");
       quitBtn.classList.remove("active");
       searchBtn.classList.remove("show");
       overlaySearch.classList.remove("show");
@@ -461,7 +464,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const conflictMain1 = document.querySelector(".contenitore-main1");
 
   shopButton.addEventListener("click", function () {
-    conflictMain1.classList.toggle("hiddenIndex");
+    conflictMain1.classList.add("hiddenIndex");
     overlay.style.display = "block";
     sidebar.classList.remove("sidebar-hidden");
     sidebar.classList.add("sidebar-shop-ctn");
