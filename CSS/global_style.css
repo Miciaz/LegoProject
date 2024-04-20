@@ -116,7 +116,6 @@
 .sign-in-box {
   display: flex;
   align-items: center;
-  /* padding-right: 10px; */
   gap: 30px;
 }
 
@@ -750,6 +749,7 @@ li {
 /* Hide the default scrollbar */
 .carousel-wrapper {
   overflow-x: auto;
+  overflow-y: hidden;
   scrollbar-width: thin;
   scrollbar-color: #888 transparent;
 }
@@ -1209,6 +1209,23 @@ li {
   cursor: pointer;
 }
 
+.upArrow1{
+  display: none;
+}
+
+.upArrow2{
+  display: none;
+}
+
+.upArrow3{
+  display: none;
+}
+
+.upArrow4{
+  display: none;
+}
+
+
 .button-f2 {
   font-size: medium;
   background: transparent;
@@ -1272,6 +1289,17 @@ li {
   flex-direction: column;
   gap: 10px;
   margin: 15px;
+}
+
+.subscribe-footer2-2 {
+  display: none;
+}
+
+.panel {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .email-footer2 {
@@ -1364,6 +1392,10 @@ li {
 .width-adjuster {
   max-width: 100rem;
   margin: 0 auto;
+}
+
+.hr-accordion{
+  display: none;
 }
 
 #footer-background {
