@@ -498,6 +498,7 @@ document.addEventListener("DOMContentLoaded", function () {
     overlay.style.display = "none";
     sidebar.classList.remove("sidebar-shop-ctn");
     sidebar.classList.add("sidebar-hidden");
+    conflictMain1.classList.remove("hiddenIndex");
   });
 });
 
