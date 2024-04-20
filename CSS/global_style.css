@@ -222,7 +222,7 @@
 }
 .menu-search {
   display: flex;
-  z-index: 4;
+  z-index: 1000;
   background-color: white;
   border-radius: 50px;
 }
