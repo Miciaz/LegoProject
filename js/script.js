@@ -391,7 +391,7 @@ searchBtn.forEach((searchBtn) => {
 
     const searchContainer = searchBtn.parentElement;
     searchContainer.appendChild(searchInput);
-    const menuSearch = document.querySelectorAll(".menu-search");
+    const menuSearch = document.querySelectorAll("#menu-search");
 
     //Vediamo se funziona zio lillo...
     const overlaySearch = document.querySelector(".overlay-search");
@@ -462,8 +462,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const xButton = document.querySelector(".x-button-sidebar");
   const sidebar = document.querySelector(".sidebar-shop");
   const conflictMain1 = document.querySelector(".contenitore-main1");
+  const conflictSearch = document.querySelector("#menu-search");
 
   shopButton.addEventListener("click", function () {
+    console.log(conflictSearch);
+    conflictSearch.classList.add("hiddenIndex");
     conflictMain1.classList.add("hiddenIndex");
     overlay.style.display = "block";
     sidebar.classList.remove("sidebar-hidden");
@@ -502,6 +505,7 @@ document.addEventListener("DOMContentLoaded", function () {
     sidebar.classList.remove("sidebar-shop-ctn");
     sidebar.classList.add("sidebar-hidden");
     conflictMain1.classList.remove("hiddenIndex");
+    conflictSearch.classList.remove("hiddenIndex");
   });
 });
 
