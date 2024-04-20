@@ -458,8 +458,10 @@ document.addEventListener("DOMContentLoaded", function () {
   const shopButton = document.querySelector(".btn-overlay");
   const xButton = document.querySelector(".x-button-sidebar");
   const sidebar = document.querySelector(".sidebar-shop");
+  const conflictMain1 = document.querySelector(".contenitore-main1");
 
   shopButton.addEventListener("click", function () {
+    conflictMain1.classList.toggle("hiddenIndex");
     overlay.style.display = "block";
     sidebar.classList.remove("sidebar-hidden");
     sidebar.classList.add("sidebar-shop-ctn");

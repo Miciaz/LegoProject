@@ -320,6 +320,10 @@ input[type="text"]:focus {
   position: relative;
   max-width: 100rem;
   margin: 0px auto;
+  z-index: 0;
+}
+
+.contenitore-main1.hiddenIndex {
   z-index: -1;
 }
 
