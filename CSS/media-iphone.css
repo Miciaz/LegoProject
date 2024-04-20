@@ -990,6 +990,7 @@
 }
 
 .upArrow1 {
+  display: block;
   transform: rotate(270deg);
   transition: 0.5s ease;
 }
@@ -1000,6 +1001,7 @@
 }
 
 .upArrow2 {
+  display: block;
   transform: rotate(270deg);
   transition: 0.5s ease;
 }
@@ -1011,6 +1013,7 @@
 
 
 .upArrow3 {
+  display: block;
   transform: rotate(270deg);
   transition: 0.5s ease;
 }
@@ -1022,6 +1025,7 @@
 
 
 .upArrow4 {
+  display: block;
   transform: rotate(270deg);
   transition: 0.5s ease;
 }

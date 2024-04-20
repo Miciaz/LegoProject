@@ -1206,6 +1206,23 @@ li {
   cursor: pointer;
 }
 
+.upArrow1{
+  display: none;
+}
+
+.upArrow2{
+  display: none;
+}
+
+.upArrow3{
+  display: none;
+}
+
+.upArrow4{
+  display: none;
+}
+
+
 .button-f2 {
   font-size: medium;
   background: transparent;
