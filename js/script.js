@@ -536,32 +536,49 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 //FOOTER 2 ACCORDION
-const accordions = document.getElementsByClassName("accordion");
+const accordions = document.querySelectorAll(".accordion");
 const box2Ul = document.querySelector(".box2-ul");
 const arrowBtn1 = document.querySelector(".upArrow1");
 const arrowBtn2 = document.querySelector(".upArrow2");
 const arrowBtn3 = document.querySelector(".upArrow3");
 const arrowBtn4 = document.querySelector(".upArrow4");
 
-for (let i = 0; i < accordions.length; i++) {
-  const accordion = accordions[i];
+// for (let i = 0; i < accordions.length; i++) {
+//   const accordion = accordions[i];
+//   //console.log(accordions[i])
+//   accordions[i].addEventListener("click", function (event) {
+//     // Otteniamo l'elemento su cui è stato fatto clic utilizzando event.currentTarget
+//     const clickedAccordion = event.currentTarget;
+//     //clickedAccordion.classList.toggle("active");
 
-  accordion.addEventListener("click", function (event) {
-    // Otteniamo l'elemento su cui è stato fatto clic utilizzando event.currentTarget
-    const clickedAccordion = event.currentTarget;
-    clickedAccordion.classList.toggle("active");
+//     event.target.classList.toggle('active')
+//     arrowBtn1.classList.toggle("active");
+//     arrowBtn2.classList.toggle("active");
+//     arrowBtn3.classList.toggle("active");
+//     arrowBtn4.classList.toggle("active");
 
-    arrowBtn1.classList.toggle("active");
-    arrowBtn2.classList.toggle("active");
-    arrowBtn3.classList.toggle("active");
-    arrowBtn4.classList.toggle("active");
+//     const panel = clickedAccordion.nextElementSibling;
 
-    const panel = clickedAccordion.nextElementSibling;
+//     if (panel.style.display === "block") {
+//       panel.style.display = "none";
+//     } else {
+//       panel.style.display = "block";
+//     }
+//   });
+// }
 
-    if (panel.style.display === "block") {
+document.addEventListener("DOMContentLoaded", () => {
+  const accordions = document.querySelectorAll(".accordion");
+  accordions.forEach((accordion) => {
+    accordion.addEventListener("click", (event) => {
+      const clickedAccordion = event.currentTarget;
+      const panel = clickedAccordion.nextElementSibling;
+      event.target.classList.toggle('active')
+      if (panel.style.display === "block") {
       panel.style.display = "none";
     } else {
       panel.style.display = "block";
     }
+    });
   });
-}
+});
